@@ -4,7 +4,7 @@
             <Dictionary name="Short name" prefix="short">
                 <record key="nanosecond">
                     <value lang="en">ns</value>
-                    <value lang="ru">нс</value>
+                    <value lang="zh-CN">нс</value>
                     <value lang="pl">ns</value>
                     <value lang="ar">ns</value>
                     <value lang="es">ns</value>
@@ -18,7 +18,7 @@
                 </record>
                 <record key="microsecond">
                     <value lang="en">μs</value>
-                    <value lang="ru">мкс</value>
+                    <value lang="zh-CN">мкс</value>
                     <value lang="pl">μs</value>
                     <value lang="ar">μs</value>
                     <value lang="es">μs</value>
@@ -32,7 +32,7 @@
                 </record>
                 <record key="millisecond">
                     <value lang="en">ms</value>
-                    <value lang="ru">мс</value>
+                    <value lang="zh-CN">мс</value>
                     <value lang="pl">ms</value>
                     <value lang="ar">ms</value>
                     <value lang="es">ms</value>
@@ -46,7 +46,7 @@
                 </record>
                 <record key="second">
                     <value lang="en">s</value>
-                    <value lang="ru">с</value>
+                    <value lang="zh-CN">с</value>
                     <value lang="pl">s</value>
                     <value lang="ar">s</value>
                     <value lang="es">s</value>
@@ -60,7 +60,7 @@
                 </record>
                 <record key="minute">
                     <value lang="en">m</value>
-                    <value lang="ru">м</value>
+                    <value lang="zh-CN">м</value>
                     <value lang="pl">m</value>
                     <value lang="ar">m</value>
                     <value lang="es">m</value>
@@ -74,7 +74,7 @@
                 </record>
                 <record key="hour">
                     <value lang="en">h</value>
-                    <value lang="ru">ч</value>
+                    <value lang="zh-CN">ч</value>
                     <value lang="pl">h</value>
                     <value lang="ar">h</value>
                     <value lang="es">h</value>
@@ -88,7 +88,7 @@
                 </record>
                 <record key="day">
                     <value lang="en">d</value>
-                    <value lang="ru">д</value>
+                    <value lang="zh-CN">д</value>
                     <value lang="pl">d</value>
                     <value lang="ar">d</value>
                     <value lang="es">d</value>
@@ -102,7 +102,7 @@
                 </record>
                 <record key="week">
                     <value lang="en">w</value>
-                    <value lang="ru">нед</value>
+                    <value lang="zh-CN">нед</value>
                     <value lang="pl">w</value>
                     <value lang="ar">w</value>
                     <value lang="es">w</value>
@@ -116,7 +116,7 @@
                 </record>
                 <record key="month">
                     <value lang="en">mon</value>
-                    <value lang="ru">мес</value>
+                    <value lang="zh-CN">мес</value>
                     <value lang="pl">mon</value>
                     <value lang="ar">mon</value>
                     <value lang="es">mon</value>
@@ -130,7 +130,7 @@
                 </record>
                 <record key="year">
                     <value lang="en">y</value>
-                    <value lang="ru">г</value>
+                    <value lang="zh-CN">г</value>
                     <value lang="pl">y</value>
                     <value lang="ar">y</value>
                     <value lang="es">y</value>
@@ -149,7 +149,7 @@
         <Dictionary name="Type" prefix="type">
             <record key="folder">
                 <value lang="en">Folder</value>
-                <value lang="ru">Папка</value>
+                <value lang="zh-CN">Папка</value>
                 <value lang="pl">Folder</value>
                 <value lang="ar">مجلد</value>
                 <value lang="es">Carpeta</value>
@@ -165,7 +165,7 @@
         <Dictionary name="Size" prefix="size">
             <record key="b">
                 <value lang="en">b</value>
-                <value lang="ru">б</value>
+                <value lang="zh-CN">б</value>
                 <value lang="pl">b</value>
                 <value lang="ar">بايت</value>
                 <value lang="es">b</value>
@@ -179,7 +179,7 @@
             </record>
             <record key="kb">
                 <value lang="en">KB</value>
-                <value lang="ru">КБ</value>
+                <value lang="zh-CN">КБ</value>
                 <value lang="pl">KB</value>
                 <value lang="ar">كيلوبايت</value>
                 <value lang="es">KB</value>
@@ -193,7 +193,7 @@
             </record>
             <record key="mb">
                 <value lang="en">MB</value>
-                <value lang="ru">МБ</value>
+                <value lang="zh-CN">МБ</value>
                 <value lang="pl">MB</value>
                 <value lang="ar">ميجابايت</value>
                 <value lang="es">MB</value>
@@ -207,7 +207,7 @@
             </record>
             <record key="gb">
                 <value lang="en">GB</value>
-                <value lang="ru">ГБ</value>
+                <value lang="zh-CN">ГБ</value>
                 <value lang="pl">GB</value>
                 <value lang="ar">جيجابايت</value>
                 <value lang="es">GB</value>
@@ -221,7 +221,7 @@
             </record>
             <record key="tb">
                 <value lang="en">TB</value>
-                <value lang="ru">ТБ</value>
+                <value lang="zh-CN">ТБ</value>
                 <value lang="pl">TB</value>
                 <value lang="ar">تيرابايت</value>
                 <value lang="es">TB</value>
@@ -235,7 +235,7 @@
             </record>
             <record key="pb">
                 <value lang="en">PB</value>
-                <value lang="ru">ПБ</value>
+                <value lang="zh-CN">ПБ</value>
                 <value lang="pl">PB</value>
                 <value lang="ar">بيتابايت</value>
                 <value lang="es">PB</value>
@@ -251,7 +251,7 @@
         <Dictionary name="Filter" prefix="filter">
             <record key="all">
                 <value lang="en">All files</value>
-                <value lang="ru">Все файлы</value>
+                <value lang="zh-CN">Все файлы</value>
                 <value lang="pl">Wszystkie pliki</value>
                 <value lang="ar">جميع الملفات</value>
                 <value lang="es">Todos los archivos</value>
@@ -265,7 +265,7 @@
             </record>
             <record key="folders">
                 <value lang="en">Folders only</value>
-                <value lang="ru">Только папки</value>
+                <value lang="zh-CN">Только папки</value>
                 <value lang="pl">Tylko foldery</value>
                 <value lang="ar">مجلدات فقط</value>
                 <value lang="es">Directorios solamente</value>
@@ -279,7 +279,7 @@
             </record>
             <record key="files">
                 <value lang="en">Files only</value>
-                <value lang="ru">Только файлы</value>
+                <value lang="zh-CN">Только файлы</value>
                 <value lang="pl">Tylko pliki</value>
                 <value lang="ar">ملفات فقط</value>
                 <value lang="es">Archivos solamente</value>
@@ -293,7 +293,7 @@
             </record>
             <record key="images">
                 <value lang="en">Images only</value>
-                <value lang="ru">Только изображения</value>
+                <value lang="zh-CN">Только изображения</value>
                 <value lang="pl">Tylko obrazki</value>
                 <value lang="ar">صور فقط</value>
                 <value lang="es">Imagenes solamente</value>
@@ -307,7 +307,7 @@
             </record>
             <record key="nonhidden">
                 <value lang="en">Non-hidden files only</value>
-                <value lang="ru">Только видимые файлы</value>
+                <value lang="zh-CN">Только видимые файлы</value>
                 <value lang="pl">Tylko nie ukryte pliki</value>
                 <value lang="ar">الملفات الغير مخفية فقط</value>
                 <value lang="es">Archivos no ocultos solamente</value>
@@ -321,7 +321,7 @@
             </record>
             <record key="custom">
                 <value lang="en">...</value>
-                <value lang="ru">...</value>
+                <value lang="zh-CN">...</value>
                 <value lang="pl">...</value>
                 <value lang="ar">...</value>
                 <value lang="es">...</value>
@@ -337,7 +337,7 @@
     </Dictionary>
     <Translations>
         <Translation lang="en" title="English" author="mgarin" />
-        <Translation lang="ru" title="Русский" author="mgarin" />
+        <Translation lang="zh-CN" title="中文" author="mgarin" />
         <Translation lang="pl" title="Polski" author="sciepa" />
         <Translation lang="ar" title="العربية" author="Abu Abdullah" />
         <Translation lang="es" title="Español" author="pablovilas" />

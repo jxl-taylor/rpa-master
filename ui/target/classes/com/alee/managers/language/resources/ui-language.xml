@@ -2,7 +2,7 @@
     <Dictionary name="Information window" prefix="about.dialog">
         <record key="title">
             <value lang="en">Library information</value>
-            <value lang="ru">Информация о библиотеке</value>
+            <value lang="zh-CN">Информация о библиотеке</value>
             <value lang="pl">Informacje o bibliotece</value>
             <value lang="ar">معلومات عن البرنامج</value>
             <value lang="es">Información de la Librería</value>
@@ -17,7 +17,7 @@
         <Dictionary name="General tab" prefix="general">
             <record key="title">
                 <value lang="en">General</value>
-                <value lang="ru">Общие</value>
+                <value lang="zh-CN">Общие</value>
                 <value lang="pl">Ogólny</value>
                 <value lang="ar">عام</value>
                 <value lang="es">General</value>
@@ -31,7 +31,7 @@
             </record>
             <record key="java.version">
                 <value lang="en">Java %s</value>
-                <value lang="ru">Java %s</value>
+                <value lang="zh-CN">Java %s</value>
                 <value lang="pl">Java %s</value>
                 <value lang="ar">Java %s</value>
                 <value lang="es">Java %s</value>
@@ -45,7 +45,7 @@
             </record>
             <record key="os.arch">
                 <value lang="en">Architecture: %s</value>
-                <value lang="ru">Архитектура: %s</value>
+                <value lang="zh-CN">Архитектура: %s</value>
                 <value lang="pl">Architektura: %s</value>
                 <value lang="ar">النظام: %s</value>
                 <value lang="es">Arquitectura: %s</value>
@@ -61,7 +61,7 @@
         <Dictionary name="Libraries tab" prefix="libraries">
             <record key="title">
                 <value lang="en">Libraries</value>
-                <value lang="ru">Библиотеки</value>
+                <value lang="zh-CN">Библиотеки</value>
                 <value lang="pl">Biblioteki</value>
                 <value lang="ar">البرمجيات</value>
                 <value lang="es">Bibliotecas</value>
@@ -75,7 +75,7 @@
             </record>
             <record key="license">
                 <value lang="en">License:</value>
-                <value lang="ru">Лицензия:</value>
+                <value lang="zh-CN">Лицензия:</value>
                 <value lang="pl">Licencja:</value>
                 <value lang="ar">الترخيص:</value>
                 <value lang="es">Licencia:</value>
@@ -89,7 +89,7 @@
             </record>
             <record key="site">
                 <value lang="en">Site:</value>
-                <value lang="ru">Сайт:</value>
+                <value lang="zh-CN">Сайт:</value>
                 <value lang="pl">Strony:</value>
                 <value lang="ar">الموقع:</value>
                 <value lang="es">Sitio:</value>
@@ -103,7 +103,7 @@
             </record>
             <record key="error">
                 <value lang="en">Libraries data is unavailable</value>
-                <value lang="ru">Информация о библиотеках недоступна</value>
+                <value lang="zh-CN">Информация о библиотеках недоступна</value>
                 <value lang="pl">Biblioteki dane są niedostępne</value>
                 <value lang="ar">بيانات البرمجيات الملحقة غير متوفرة</value>
                 <value lang="es">Bibliotecas datos no está disponible</value>
@@ -119,7 +119,7 @@
         <Dictionary name="System properties tab" prefix="properties">
             <record key="title">
                 <value lang="en">Properties</value>
-                <value lang="ru">Параметры</value>
+                <value lang="zh-CN">Параметры</value>
                 <value lang="pl">Właściwości</value>
                 <value lang="ar">الخصائص</value>
                 <value lang="es">Propiedades</value>
@@ -133,7 +133,7 @@
             </record>
             <record key="key">
                 <value lang="en">Key</value>
-                <value lang="ru">Ключ</value>
+                <value lang="zh-CN">Ключ</value>
                 <value lang="pl">Klucz</value>
                 <value lang="ar">المفتاح</value>
                 <value lang="es">Clave</value>
@@ -147,7 +147,7 @@
             </record>
             <record key="value">
                 <value lang="en">Value</value>
-                <value lang="ru">Значение</value>
+                <value lang="zh-CN">Значение</value>
                 <value lang="pl">Wartość</value>
                 <value lang="ar">القيمة</value>
                 <value lang="es">Valor</value>
@@ -164,7 +164,7 @@
     <Dictionary name="RootPane" prefix="rootpane">
         <record key="empty.title">
             <value lang="en"> </value>
-            <value lang="ru"> </value>
+            <value lang="zh-CN"> </value>
             <value lang="pl"> </value>
             <value lang="ar"> </value>
             <value lang="es"> </value>
@@ -180,7 +180,7 @@
     <Dictionary name="OptionPane" prefix="optionpane">
         <record key="title">
             <value lang="en">Select an option</value>
-            <value lang="ru">Выберите вариант</value>
+            <value lang="zh-CN">Выберите вариант</value>
             <value lang="pl">Wybierz opcje</value>
             <value lang="ar">اختر</value>
             <value lang="es">Seleccione una opción</value>
@@ -194,7 +194,7 @@
         </record>
         <record key="ok">
             <value lang="en" mnemonic="K">OK</value>
-            <value lang="ru" mnemonic="К">ОК</value>
+            <value lang="zh-CN" mnemonic="К">ОК</value>
             <value lang="pl" mnemonic="K">OK</value>
             <value lang="ar" mnemonic="ح">حسنا</value>
             <value lang="es" mnemonic="K">OK</value>
@@ -208,7 +208,7 @@
         </record>
         <record key="cancel">
             <value lang="en" mnemonic="C">Cancel</value>
-            <value lang="ru" mnemonic="О">Отмена</value>
+            <value lang="zh-CN" mnemonic="О">Отмена</value>
             <value lang="pl" mnemonic="A">Anuluj</value>
             <value lang="ar" mnemonic="إ">إلغاء</value>
             <value lang="es" mnemonic="C">Cancelar</value>
@@ -222,7 +222,7 @@
         </record>
         <record key="yes">
             <value lang="en" mnemonic="Y">Yes</value>
-            <value lang="ru" mnemonic="Д">Да</value>
+            <value lang="zh-CN" mnemonic="Д">Да</value>
             <value lang="pl" mnemonic="T">Tak</value>
             <value lang="ar" mnemonic="ن">نعم</value>
             <value lang="es" mnemonic="S">Si</value>
@@ -236,7 +236,7 @@
         </record>
         <record key="no">
             <value lang="en" mnemonic="N">No</value>
-            <value lang="ru" mnemonic="Н">Нет</value>
+            <value lang="zh-CN" mnemonic="Н">Нет</value>
             <value lang="pl" mnemonic="N">Nie</value>
             <value lang="ar" mnemonic="ل">لا</value>
             <value lang="es" mnemonic="N">No</value>
@@ -252,7 +252,7 @@
     <Dictionary name="ProxyManager" prefix="proxy">
         <record key="use.system.title">
             <value lang="en">Change proxy settings</value>
-            <value lang="ru">Изменение настроек прокси</value>
+            <value lang="zh-CN">Изменение настроек прокси</value>
             <value lang="pl">Zmień ustawienia serwera proxy</value>
             <value lang="ar">تغيير إعدادات البروكسي</value>
             <value lang="es">Cambiar configuración del proxy</value>
@@ -266,7 +266,7 @@
         </record>
         <record key="use.system.text">
             <value lang="en">&lt;html&gt;Application proxy settings do not match system proxy settings.&lt;br&gt;Would you like to use system settings instead?&lt;/html&gt;</value>
-            <value lang="ru">&lt;html&gt;Настройки прокси приложения не совпадают с установленной в системе прокси.&lt;br&gt;Хотите ли вы использовать системные настройки?&lt;/html&gt;</value>
+            <value lang="zh-CN">&lt;html&gt;Настройки прокси приложения не совпадают с установленной в системе прокси.&lt;br&gt;Хотите ли вы использовать системные настройки?&lt;/html&gt;</value>
             <value lang="pl">&lt;html&gt;Usutawienia serwera proxy aplikacji nie pasują do systemowych ustawień serwera proxy.&lt;br&gt;Chcesz korzystać z ustawień systemowych?&lt;/html&gt;</value>
             <value lang="ar">&lt;html&gt;إعدادات البروكسي للبرنامج تختلف عن إعدادات البروكسي للنظام.&lt;br&gt;هل ترغب باستخدام إعدادات النظام؟&lt;/html&gt;</value>
             <value lang="es">&lt;html&gt;La configuración del proxy en la aplicación no coincide con la configuración del sistema.&lt;br&gt;¿Desea usar la configuracion del sistema?&lt;/html&gt;</value>
@@ -280,7 +280,7 @@
         </record>
         <record key="use.system.save">
             <value lang="en">Remember this choice</value>
-            <value lang="ru">Запомнить этот выбор</value>
+            <value lang="zh-CN">Запомнить этот выбор</value>
             <value lang="pl">Zapamiętaj wybór</value>
             <value lang="ar">تذكر الخيار</value>
             <value lang="es">Recordar esta opción</value>
@@ -295,7 +295,7 @@
         <Dictionary name="WebProxyAuthenticator" prefix="auth">
             <record key="title">
                 <value lang="en">Proxy authentication required</value>
-                <value lang="ru">Необходима авторизация на прокси сервере</value>
+                <value lang="zh-CN">Необходима авторизация на прокси сервере</value>
                 <value lang="pl">Wymagane uwierzytelnienie proxy</value>
                 <value lang="ar">مطلوب بيانات النفاذ للبروكسي</value>
                 <value lang="es">Autenticación de proxy requerida</value>
@@ -309,7 +309,7 @@
             </record>
             <record key="host">
                 <value lang="en">Host:</value>
-                <value lang="ru">Хост:</value>
+                <value lang="zh-CN">Хост:</value>
                 <value lang="pl">Host:</value>
                 <value lang="ar">الخادم (Host):</value>
                 <value lang="es">Host:</value>
@@ -323,7 +323,7 @@
             </record>
             <record key="port">
                 <value lang="en">Port:</value>
-                <value lang="ru">Порт:</value>
+                <value lang="zh-CN">Порт:</value>
                 <value lang="pl">Port:</value>
                 <value lang="ar">المنفذ (Port):</value>
                 <value lang="es">Puerto:</value>
@@ -337,7 +337,7 @@
             </record>
             <record key="login">
                 <value lang="en">Login:</value>
-                <value lang="ru">Логин:</value>
+                <value lang="zh-CN">Логин:</value>
                 <value lang="pl">Login:</value>
                 <value lang="ar">الدخول:</value>
                 <value lang="es">Nombre usuario:</value>
@@ -351,7 +351,7 @@
             </record>
             <record key="pass">
                 <value lang="en">Password:</value>
-                <value lang="ru">Пароль:</value>
+                <value lang="zh-CN">Пароль:</value>
                 <value lang="pl">Hasło:</value>
                 <value lang="ar">كلمة المرور:</value>
                 <value lang="es">Contraseña:</value>
@@ -368,7 +368,7 @@
     <Dictionary name="WebFileChooser" prefix="filechooser">
         <record key="title">
             <value lang="en">Choose files</value>
-            <value lang="ru">Выберите файлы</value>
+            <value lang="zh-CN">Выберите файлы</value>
             <value lang="pl">Wybierz pliki</value>
             <value lang="ar">اختر الملفات</value>
             <value lang="es">Elija los archivos</value>
@@ -382,7 +382,7 @@
         </record>
         <record key="root">
             <value lang="en">My computer</value>
-            <value lang="ru">Мой компьютер</value>
+            <value lang="zh-CN">Мой компьютер</value>
             <value lang="pl">Mój komputer</value>
             <value lang="ar">جهاز الكمبيوتر الخاص بي</value>
             <value lang="es">Mi equipo</value>
@@ -396,7 +396,7 @@
         </record>
         <record key="back">
             <value lang="en" state="tooltip">Back</value>
-            <value lang="ru" state="tooltip">Назад</value>
+            <value lang="zh-CN" state="tooltip">Назад</value>
             <value lang="pl" state="tooltip">Wstecz</value>
             <value lang="ar" state="tooltip">رجوع</value>
             <value lang="es" state="tooltip">Atras</value>
@@ -410,7 +410,7 @@
         </record>
         <record key="forward">
             <value lang="en" state="tooltip">Forward</value>
-            <value lang="ru" state="tooltip">Вперёд</value>
+            <value lang="zh-CN" state="tooltip">Вперёд</value>
             <value lang="pl" state="tooltip">Dalej</value>
             <value lang="ar" state="tooltip">أمام</value>
             <value lang="es" state="tooltip">Adelante</value>
@@ -424,7 +424,7 @@
         </record>
         <record key="history">
             <value lang="en" state="tooltip">History</value>
-            <value lang="ru" state="tooltip">История</value>
+            <value lang="zh-CN" state="tooltip">История</value>
             <value lang="pl" state="tooltip">Historia</value>
             <value lang="ar" state="tooltip">التاريخ</value>
             <value lang="es" state="tooltip">Historia</value>
@@ -438,7 +438,7 @@
         </record>
         <record key="folderup">
             <value lang="en" state="tooltip">Folder up</value>
-            <value lang="ru" state="tooltip">На уровень вверх</value>
+            <value lang="zh-CN" state="tooltip">На уровень вверх</value>
             <value lang="pl" state="tooltip">W górę</value>
             <value lang="ar" state="tooltip">مجلد للأعلى</value>
             <value lang="es" state="tooltip">Subir directorio</value>
@@ -452,7 +452,7 @@
         </record>
         <record key="home">
             <value lang="en" state="tooltip">Home directory</value>
-            <value lang="ru" state="tooltip">Домашняя директория</value>
+            <value lang="zh-CN" state="tooltip">Домашняя директория</value>
             <value lang="pl" state="tooltip">Katalog Domowy</value>
             <value lang="ar" state="tooltip">المجلد الرئيسي</value>
             <value lang="es" state="tooltip">Directorio de inicio</value>
@@ -466,7 +466,7 @@
         </record>
         <record key="desktop">
             <value lang="en" state="tooltip">Desktop</value>
-            <value lang="ru" state="tooltip">Рабочий стол</value>
+            <value lang="zh-CN" state="tooltip">Рабочий стол</value>
             <value lang="pl" state="tooltip">Pulpit</value>
             <value lang="ar" state="tooltip">سطح المكتب</value>
             <value lang="es" state="tooltip">Escritorio</value>
@@ -480,7 +480,7 @@
         </record>
         <record key="newfolder">
             <value lang="en" state="tooltip">Create new folder</value>
-            <value lang="ru" state="tooltip">Создать новую папку</value>
+            <value lang="zh-CN" state="tooltip">Создать новую папку</value>
             <value lang="pl" state="tooltip">Stwórz nowy folder</value>
             <value lang="ar" state="tooltip">إنشاء مجلد جديد</value>
             <value lang="es" state="tooltip">Crear nuevo directorio</value>
@@ -494,7 +494,7 @@
         </record>
         <record key="newfolder.name">
             <value lang="en">New folder</value>
-            <value lang="ru">Новая папка</value>
+            <value lang="zh-CN">Новая папка</value>
             <value lang="pl">Nowy folder</value>
             <value lang="ar">مجلد جديد</value>
             <value lang="es">Nuevo directorio</value>
@@ -508,7 +508,7 @@
         </record>
         <record key="newfolder.error.title">
             <value lang="en">Error</value>
-            <value lang="ru">Ошибка</value>
+            <value lang="zh-CN">Ошибка</value>
             <value lang="pl">Błąd</value>
             <value lang="ar">خطأ</value>
             <value lang="es">Error</value>
@@ -522,7 +522,7 @@
         </record>
         <record key="newfolder.error.text">
             <value lang="en">Unable to create new folder</value>
-            <value lang="ru">Не удалось создать новую папку</value>
+            <value lang="zh-CN">Не удалось создать новую папку</value>
             <value lang="pl">Nie można utworzyć nowego folderu</value>
             <value lang="ar">غير قادر على إنشاء مجلد جديد</value>
             <value lang="es">Imposible crear un nuevo directorio</value>
@@ -536,7 +536,7 @@
         </record>
         <record key="refresh">
             <value lang="en" state="tooltip">Reload folder content</value>
-            <value lang="ru" state="tooltip">Обновить содержимое папки</value>
+            <value lang="zh-CN" state="tooltip">Обновить содержимое папки</value>
             <value lang="pl" state="tooltip">Ponownie załaduj zawartość folderu</value>
             <value lang="ar" state="tooltip">تحديث محتوى المجلد</value>
             <value lang="es" state="tooltip">Recargar contenido del directorio</value>
@@ -550,7 +550,7 @@
         </record>
         <record key="delete">
             <value lang="en" state="tooltip">Delete selected files</value>
-            <value lang="ru" state="tooltip">Удалить выбранные файлы</value>
+            <value lang="zh-CN" state="tooltip">Удалить выбранные файлы</value>
             <value lang="pl" state="tooltip">Usuń wybrane pliki</value>
             <value lang="ar" state="tooltip">حذف الملفات المحددة</value>
             <value lang="es" state="tooltip">Borrar los archivos seleccionados</value>
@@ -564,7 +564,7 @@
         </record>
         <record key="delete.confirm.title">
             <value lang="en">Delete confirmation</value>
-            <value lang="ru">Подтверждение удаления</value>
+            <value lang="zh-CN">Подтверждение удаления</value>
             <value lang="pl">Potwierdzenie usunięcia</value>
             <value lang="ar">التأكد من الحذف</value>
             <value lang="es">Confirmación de borrado</value>
@@ -578,7 +578,7 @@
         </record>
         <record key="delete.confirm.text">
             <value lang="en">Are you sure you want to delete these files?</value>
-            <value lang="ru">Вы уверены что хотите удалить все эти файлы?</value>
+            <value lang="zh-CN">Вы уверены что хотите удалить все эти файлы?</value>
             <value lang="pl">Jesteś pewny, że chcesz usunąć te pliki?</value>
             <value lang="ar">هل أنت متأكد من حذف هذه الملفات؟</value>
             <value lang="es">¿Está seguro que desea borrar los archivos?</value>
@@ -592,7 +592,7 @@
         </record>
         <record key="view">
             <value lang="en" state="tooltip">Change view</value>
-            <value lang="ru" state="tooltip">Изменить вид</value>
+            <value lang="zh-CN" state="tooltip">Изменить вид</value>
             <value lang="pl" state="tooltip">Zmień widok</value>
             <value lang="ar" state="tooltip">تغيير المنظر</value>
             <value lang="es" state="tooltip">Cambiar vista</value>
@@ -606,7 +606,7 @@
         </record>
         <record key="view.table">
             <value lang="en">Details</value>
-            <value lang="ru">Таблица</value>
+            <value lang="zh-CN">Таблица</value>
             <value lang="pl">Szczegóły</value>
             <value lang="ar">التفاصيل</value>
             <value lang="es">Detalles</value>
@@ -620,7 +620,7 @@
         </record>
         <record key="view.icons">
             <value lang="en">Icons</value>
-            <value lang="ru">Иконки</value>
+            <value lang="zh-CN">Иконки</value>
             <value lang="pl">Ikony</value>
             <value lang="ar">أيقونات</value>
             <value lang="es">Íconos</value>
@@ -634,7 +634,7 @@
         </record>
         <record key="view.tiles">
             <value lang="en">Tiles</value>
-            <value lang="ru">Плитка</value>
+            <value lang="zh-CN">Плитка</value>
             <value lang="pl">Kafelki</value>
             <value lang="ar">أسطح</value>
             <value lang="es">Azulejos</value>
@@ -648,7 +648,7 @@
         </record>
         <record key="files.selected">
             <value lang="en">Selected files:</value>
-            <value lang="ru">Выбранные файлы:</value>
+            <value lang="zh-CN">Выбранные файлы:</value>
             <value lang="pl">Wybrane pliki:</value>
             <value lang="ar">الملفات المحددة:</value>
             <value lang="es">Archivos seleccionados:</value>
@@ -662,7 +662,7 @@
         </record>
         <record key="save">
             <value lang="en">Save</value>
-            <value lang="ru">Сохранить</value>
+            <value lang="zh-CN">Сохранить</value>
             <value lang="pl">Wybierz</value>
             <value lang="ar">حفظ</value>
             <value lang="es">Guardar</value>
@@ -676,7 +676,7 @@
         </record>
         <record key="open">
             <value lang="en">Open</value>
-            <value lang="ru">Открыть</value>
+            <value lang="zh-CN">Открыть</value>
             <value lang="pl">Otwarte</value>
             <value lang="ar">فتح</value>
             <value lang="es">Abierto</value>
@@ -690,7 +690,7 @@
         </record>
         <record key="custom">
             <value lang="en">Choose</value>
-            <value lang="ru">Выбрать</value>
+            <value lang="zh-CN">Выбрать</value>
             <value lang="pl">Wybierz</value>
             <value lang="ar">اختر</value>
             <value lang="es">Elija</value>
@@ -704,7 +704,7 @@
         </record>
         <record key="cancel">
             <value lang="en">Cancel</value>
-            <value lang="ru">Отмена</value>
+            <value lang="zh-CN">Отмена</value>
             <value lang="pl">Anuluj</value>
             <value lang="ar">إلغاء</value>
             <value lang="es">Cancelar</value>
@@ -719,7 +719,7 @@
         <Dictionary name="WebFileTable" prefix="table.column">
             <record key="number">
                 <value lang="en">#</value>
-                <value lang="ru">#</value>
+                <value lang="zh-CN">#</value>
                 <value lang="pl">#</value>
                 <value lang="ar">#</value>
                 <value lang="es">#</value>
@@ -733,7 +733,7 @@
             </record>
             <record key="name">
                 <value lang="en">Name</value>
-                <value lang="ru">Имя</value>
+                <value lang="zh-CN">Имя</value>
                 <value lang="pl">Nazwa</value>
                 <value lang="ar">الاسم</value>
                 <value lang="es">Nombre</value>
@@ -747,7 +747,7 @@
             </record>
             <record key="size">
                 <value lang="en">Size</value>
-                <value lang="ru">Размер</value>
+                <value lang="zh-CN">Размер</value>
                 <value lang="pl">Rozmiar</value>
                 <value lang="ar">الحجم</value>
                 <value lang="es">Tamaño</value>
@@ -761,7 +761,7 @@
             </record>
             <record key="extension">
                 <value lang="en">Extension</value>
-                <value lang="ru">Расширение</value>
+                <value lang="zh-CN">Расширение</value>
                 <value lang="pl">Rozbudowa</value>
                 <value lang="ar">تمديد</value>
                 <value lang="es">Extensión</value>
@@ -775,7 +775,7 @@
             </record>
             <record key="creation.date">
                 <value lang="en">Created</value>
-                <value lang="ru">Создан</value>
+                <value lang="zh-CN">Создан</value>
                 <value lang="pl">Stworzony</value>
                 <value lang="ar">أنشئ</value>
                 <value lang="es">Creado</value>
@@ -789,7 +789,7 @@
             </record>
             <record key="modification.date">
                 <value lang="en">Modified</value>
-                <value lang="ru">Изменён</value>
+                <value lang="zh-CN">Изменён</value>
                 <value lang="pl">Zmodyfikowany</value>
                 <value lang="ar">تغيير</value>
                 <value lang="es">Modificado</value>
@@ -806,7 +806,7 @@
     <Dictionary name="WebColorChooser" prefix="colorchooser">
         <record key="title">
             <value lang="en">Choose color</value>
-            <value lang="ru">Выбор цвета</value>
+            <value lang="zh-CN">Выбор цвета</value>
             <value lang="pl">Wybierz kolor</value>
             <value lang="ar">اختر اللون</value>
             <value lang="es">Elija un color</value>
@@ -820,7 +820,7 @@
         </record>
         <record key="webonly">
             <value lang="en">Web colors only</value>
-            <value lang="ru">Только Web-цвета</value>
+            <value lang="zh-CN">Только Web-цвета</value>
             <value lang="pl">Tylko kolory html</value>
             <value lang="ar">ألوان ويب فقط</value>
             <value lang="es">Colores Web solamente</value>
@@ -834,7 +834,7 @@
         </record>
         <record key="color.new">
             <value lang="en">New</value>
-            <value lang="ru">Новый</value>
+            <value lang="zh-CN">Новый</value>
             <value lang="pl">Nowy</value>
             <value lang="ar">جديد</value>
             <value lang="es">Nuevo</value>
@@ -848,7 +848,7 @@
         </record>
         <record key="color.current">
             <value lang="en">Current</value>
-            <value lang="ru">Текущий</value>
+            <value lang="zh-CN">Текущий</value>
             <value lang="pl">Prąd</value>
             <value lang="ar">حالي</value>
             <value lang="es">Corriente</value>
@@ -862,7 +862,7 @@
         </record>
         <record key="choose">
             <value lang="en">Choose</value>
-            <value lang="ru">Выбрать</value>
+            <value lang="zh-CN">Выбрать</value>
             <value lang="pl">Wybierz</value>
             <value lang="ar">اختر</value>
             <value lang="es">Elegir</value>
@@ -876,7 +876,7 @@
         </record>
         <record key="reset">
             <value lang="en">Reset</value>
-            <value lang="ru">Сбросить</value>
+            <value lang="zh-CN">Сбросить</value>
             <value lang="pl">Reset</value>
             <value lang="ar">إعادة تعيين</value>
             <value lang="es">Reinicializar</value>
@@ -890,7 +890,7 @@
         </record>
         <record key="cancel">
             <value lang="en">Cancel</value>
-            <value lang="ru">Отмена</value>
+            <value lang="zh-CN">Отмена</value>
             <value lang="pl">Anuluj</value>
             <value lang="ar">إلغاء</value>
             <value lang="es">Cancelar</value>
@@ -906,7 +906,7 @@
     <Dictionary name="Filter settings" prefix="filter">
         <record key="matchcase">
             <value lang="en">Match case</value>
-            <value lang="ru">Учитывать регистр</value>
+            <value lang="zh-CN">Учитывать регистр</value>
             <value lang="pl">Wielkość liter</value>
             <value lang="ar">تتناسب مع الحالة</value>
             <value lang="es">Coincidir mayúsculas y minúsculas</value>
@@ -920,7 +920,7 @@
         </record>
         <record key="spaceseparator">
             <value lang="en">Use space as separator</value>
-            <value lang="ru">Считать пробел за разделитель</value>
+            <value lang="zh-CN">Считать пробел за разделитель</value>
             <value lang="pl">Użyj miejsca jako separator</value>
             <value lang="ar">استخدام مفتاح المسافة كفاصل</value>
             <value lang="es">Usar el espacio como separador</value>
@@ -934,7 +934,7 @@
         </record>
         <record key="frombeginning">
             <value lang="en">Search from beginning</value>
-            <value lang="ru">Искать с начала строки</value>
+            <value lang="zh-CN">Искать с начала строки</value>
             <value lang="pl">Szukaj z początku linii</value>
             <value lang="ar">بحث من بداية السطر</value>
             <value lang="es">Buscar en el principio de la línea</value>
@@ -951,7 +951,7 @@
         <Dictionary name="WebSwitch" prefix="switch">
             <record key="selected">
                 <value lang="en"> </value>
-                <value lang="ru"> </value>
+                <value lang="zh-CN"> </value>
                 <value lang="pl"> </value>
                 <value lang="ar"> </value>
                 <value lang="es"> </value>
@@ -965,7 +965,7 @@
             </record>
             <record key="deselected">
                 <value lang="en"> </value>
-                <value lang="ru"> </value>
+                <value lang="zh-CN"> </value>
                 <value lang="pl"> </value>
                 <value lang="ar"> </value>
                 <value lang="es"> </value>
@@ -981,7 +981,7 @@
         <Dictionary name="Notification" prefix="notification">
             <record key="yes">
                 <value lang="en">Yes</value>
-                <value lang="ru">Да</value>
+                <value lang="zh-CN">Да</value>
                 <value lang="pl">Tak</value>
                 <value lang="ar">نعم</value>
                 <value lang="es">Si</value>
@@ -995,7 +995,7 @@
             </record>
             <record key="no">
                 <value lang="en">No</value>
-                <value lang="ru">Нет</value>
+                <value lang="zh-CN">Нет</value>
                 <value lang="pl">Nie</value>
                 <value lang="ar">لا</value>
                 <value lang="es">No</value>
@@ -1009,7 +1009,7 @@
             </record>
             <record key="cancel">
                 <value lang="en">Cancel</value>
-                <value lang="ru">Отмена</value>
+                <value lang="zh-CN">Отмена</value>
                 <value lang="pl">Anuluj</value>
                 <value lang="ar">إلغاء</value>
                 <value lang="es">Cancelar</value>
@@ -1023,7 +1023,7 @@
             </record>
             <record key="choose">
                 <value lang="en">Choose</value>
-                <value lang="ru">Выбрать</value>
+                <value lang="zh-CN">Выбрать</value>
                 <value lang="pl">Wybierz</value>
                 <value lang="ar">اختر</value>
                 <value lang="es">Elegir</value>
@@ -1037,7 +1037,7 @@
             </record>
             <record key="accept">
                 <value lang="en">Accept</value>
-                <value lang="ru">Принять</value>
+                <value lang="zh-CN">Принять</value>
                 <value lang="pl">Akceptować</value>
                 <value lang="ar">قبول</value>
                 <value lang="es">Aceptar</value>
@@ -1051,7 +1051,7 @@
             </record>
             <record key="decline">
                 <value lang="en">Decline</value>
-                <value lang="ru">Отказать</value>
+                <value lang="zh-CN">Отказать</value>
                 <value lang="pl">Odrzuć</value>
                 <value lang="ar">رفض</value>
                 <value lang="es">Disminución</value>
@@ -1065,7 +1065,7 @@
             </record>
             <record key="apply">
                 <value lang="en">Apply</value>
-                <value lang="ru">Применить</value>
+                <value lang="zh-CN">Применить</value>
                 <value lang="pl">Zastosować</value>
                 <value lang="ar">تطبيق</value>
                 <value lang="es">Aplicar</value>
@@ -1079,7 +1079,7 @@
             </record>
             <record key="commit">
                 <value lang="en">Commit</value>
-                <value lang="ru">Фиксировать</value>
+                <value lang="zh-CN">Фиксировать</value>
                 <value lang="pl">Popełnić</value>
                 <value lang="ar">تنفيذ</value>
                 <value lang="es">Cometer</value>
@@ -1093,7 +1093,7 @@
             </record>
             <record key="discard">
                 <value lang="en">Discard</value>
-                <value lang="ru">Сбросить</value>
+                <value lang="zh-CN">Сбросить</value>
                 <value lang="pl">Odrzucać</value>
                 <value lang="ar">تجاهل</value>
                 <value lang="es">Descartar</value>
@@ -1107,7 +1107,7 @@
             </record>
             <record key="reset">
                 <value lang="en">Reset</value>
-                <value lang="ru">Сбросить</value>
+                <value lang="zh-CN">Сбросить</value>
                 <value lang="pl">Reset</value>
                 <value lang="ar">إعادة السابق</value>
                 <value lang="es">Reinicializar</value>
@@ -1121,7 +1121,7 @@
             </record>
             <record key="retry">
                 <value lang="en">Retry</value>
-                <value lang="ru">Повторить</value>
+                <value lang="zh-CN">Повторить</value>
                 <value lang="pl">Spróbować ponownie</value>
                 <value lang="ar">إعادة المحاولة</value>
                 <value lang="es">Reintentar</value>
@@ -1135,7 +1135,7 @@
             </record>
             <record key="save">
                 <value lang="en">Save</value>
-                <value lang="ru">Сохранить</value>
+                <value lang="zh-CN">Сохранить</value>
                 <value lang="pl">Wybierz</value>
                 <value lang="ar">حفظ</value>
                 <value lang="es">Guardar</value>
@@ -1149,7 +1149,7 @@
             </record>
             <record key="open">
                 <value lang="en">Open</value>
-                <value lang="ru">Открыть</value>
+                <value lang="zh-CN">Открыть</value>
                 <value lang="pl">Otwarte</value>
                 <value lang="ar">فتح</value>
                 <value lang="es">Abierto</value>
@@ -1163,7 +1163,7 @@
             </record>
             <record key="setup">
                 <value lang="en">Setup</value>
-                <value lang="ru">Установить</value>
+                <value lang="zh-CN">Установить</value>
                 <value lang="pl">Ustawienie</value>
                 <value lang="ar">تنصيب</value>
                 <value lang="es">Configurar</value>
@@ -1177,7 +1177,7 @@
             </record>
             <record key="configure">
                 <value lang="en">Configure</value>
-                <value lang="ru">Настроить</value>
+                <value lang="zh-CN">Настроить</value>
                 <value lang="pl">Skonfiguruj</value>
                 <value lang="ar">تخصيص</value>
                 <value lang="es">Configure</value>
@@ -1191,7 +1191,7 @@
             </record>
             <record key="install">
                 <value lang="en">Install</value>
-                <value lang="ru">Установить</value>
+                <value lang="zh-CN">Установить</value>
                 <value lang="pl">Zainstalować</value>
                 <value lang="ar">تثبيت</value>
                 <value lang="es">Instalar</value>
@@ -1205,7 +1205,7 @@
             </record>
             <record key="uninstall">
                 <value lang="en">Uninstall</value>
-                <value lang="ru">Удалить</value>
+                <value lang="zh-CN">Удалить</value>
                 <value lang="pl">Odinstaluj</value>
                 <value lang="ar">إلغاء التثبيت</value>
                 <value lang="es">Desinstalar</value>
@@ -1221,7 +1221,7 @@
         <Dictionary name="WebDirectoryChooser" prefix="dirchooser">
             <record key="title">
                 <value lang="en">Choose directory</value>
-                <value lang="ru">Выбор папок</value>
+                <value lang="zh-CN">Выбор папок</value>
                 <value lang="pl">Wybierz katalog</value>
                 <value lang="ar">اختر مجلد</value>
                 <value lang="es">Elija un directorio</value>
@@ -1235,7 +1235,7 @@
             </record>
             <record key="folderup">
                 <value lang="en" state="tooltip">Folder up</value>
-                <value lang="ru" state="tooltip">На уровень вверх</value>
+                <value lang="zh-CN" state="tooltip">На уровень вверх</value>
                 <value lang="pl" state="tooltip">W górę</value>
                 <value lang="ar" state="tooltip">مجلد للأعلى</value>
                 <value lang="es" state="tooltip">Subir un directorio</value>
@@ -1249,7 +1249,7 @@
             </record>
             <record key="home">
                 <value lang="en" state="tooltip">Home directory</value>
-                <value lang="ru" state="tooltip">Домашняя директория</value>
+                <value lang="zh-CN" state="tooltip">Домашняя директория</value>
                 <value lang="pl" state="tooltip">Katalog domowy</value>
                 <value lang="ar" state="tooltip">المجلد الرئيسي</value>
                 <value lang="es" state="tooltip">Directorio de inicio</value>
@@ -1263,7 +1263,7 @@
             </record>
             <record key="desktop">
                 <value lang="en" state="tooltip">Desktop</value>
-                <value lang="ru" state="tooltip">Рабочий стол</value>
+                <value lang="zh-CN" state="tooltip">Рабочий стол</value>
                 <value lang="pl" state="tooltip">Pulpit</value>
                 <value lang="ar" state="tooltip">سطح المكتب</value>
                 <value lang="es" state="tooltip">Escritorio</value>
@@ -1277,7 +1277,7 @@
             </record>
             <record key="refresh">
                 <value lang="en" state="tooltip">Reload folder content</value>
-                <value lang="ru" state="tooltip">Обновить содержимое папки</value>
+                <value lang="zh-CN" state="tooltip">Обновить содержимое папки</value>
                 <value lang="pl" state="tooltip">Ponownie załaduj zawartość folderu</value>
                 <value lang="ar" state="tooltip">تحديث محتوى المجلد</value>
                 <value lang="es" state="tooltip">Recargar el contenido del directorio</value>
@@ -1291,7 +1291,7 @@
             </record>
             <record key="newfolder">
                 <value lang="en" state="tooltip">Create new folder</value>
-                <value lang="ru" state="tooltip">Создать новую папку</value>
+                <value lang="zh-CN" state="tooltip">Создать новую папку</value>
                 <value lang="pl" state="tooltip">Stwórz nowy folder</value>
                 <value lang="ar" state="tooltip">إنشاء مجلد جديد</value>
                 <value lang="es" state="tooltip">Crear nuevo directorio</value>
@@ -1305,7 +1305,7 @@
             </record>
             <record key="newfolder.name">
                 <value lang="en">New folder</value>
-                <value lang="ru">Новая папка</value>
+                <value lang="zh-CN">Новая папка</value>
                 <value lang="pl">Nowy folder</value>
                 <value lang="ar">مجلد جديد</value>
                 <value lang="es">Nuevo directorio</value>
@@ -1319,7 +1319,7 @@
             </record>
             <record key="newfolder.error.title">
                 <value lang="en">Error</value>
-                <value lang="ru">Ошибка</value>
+                <value lang="zh-CN">Ошибка</value>
                 <value lang="pl">Błąd</value>
                 <value lang="ar">خطأ</value>
                 <value lang="es">Error</value>
@@ -1333,7 +1333,7 @@
             </record>
             <record key="newfolder.error.text">
                 <value lang="en">Unable to create new folder</value>
-                <value lang="ru">Не удалось создать новую папку</value>
+                <value lang="zh-CN">Не удалось создать новую папку</value>
                 <value lang="pl">Nie można utworzyć nowego folderu</value>
                 <value lang="ar">غير قادر على إنشاء مجلد جديد</value>
                 <value lang="es">Imposible crear un nuevo directorio</value>
@@ -1347,7 +1347,7 @@
             </record>
             <record key="delete">
                 <value lang="en" state="tooltip">Delete selected files</value>
-                <value lang="ru" state="tooltip">Удалить выбранные файлы</value>
+                <value lang="zh-CN" state="tooltip">Удалить выбранные файлы</value>
                 <value lang="pl" state="tooltip">Usuń wybrane pliki</value>
                 <value lang="ar" state="tooltip">حذف الملفات المحددة</value>
                 <value lang="es" state="tooltip">Borrar los archivos seleccionados</value>
@@ -1361,7 +1361,7 @@
             </record>
             <record key="delete.confirm.title">
                 <value lang="en">Delete confirmation</value>
-                <value lang="ru">Подтверждение удаления</value>
+                <value lang="zh-CN">Подтверждение удаления</value>
                 <value lang="pl">Potwierdzenie usunięcia</value>
                 <value lang="ar">التأكد من الحذف</value>
                 <value lang="es">Confirmación de borrado</value>
@@ -1375,7 +1375,7 @@
             </record>
             <record key="delete.confirm.text">
                 <value lang="en">Are you sure you want to delete directory?</value>
-                <value lang="ru">Вы уверены что хотите удалить папку?</value>
+                <value lang="zh-CN">Вы уверены что хотите удалить папку?</value>
                 <value lang="pl">Jesteś pewien, że chcesz usunąć ten katalog?</value>
                 <value lang="ar">هل أنت متأكد من حذف هذه المجلد؟</value>
                 <value lang="es">¿Está seguro que desea borrar el directorio?</value>
@@ -1389,7 +1389,7 @@
             </record>
             <record key="choose">
                 <value lang="en">Choose</value>
-                <value lang="ru">Выбрать</value>
+                <value lang="zh-CN">Выбрать</value>
                 <value lang="pl">Wybierz</value>
                 <value lang="ar">اختر</value>
                 <value lang="es">Elegir</value>
@@ -1403,7 +1403,7 @@
             </record>
             <record key="cancel">
                 <value lang="en">Cancel</value>
-                <value lang="ru">Отмена</value>
+                <value lang="zh-CN">Отмена</value>
                 <value lang="pl">Anuluj</value>
                 <value lang="ar">إلغاء</value>
                 <value lang="es">Cancelar</value>
@@ -1419,7 +1419,7 @@
         <Dictionary name="WebMemoryBar" prefix="memorybar">
             <record key="text">
                 <value lang="en">%s of %s</value>
-                <value lang="ru">%s из %s</value>
+                <value lang="zh-CN">%s из %s</value>
                 <value lang="pl">%s z %s</value>
                 <value lang="ar">%s من %s</value>
                 <value lang="es">%s de %s</value>
@@ -1433,7 +1433,7 @@
             </record>
             <record key="tooltip">
                 <value lang="en">Allocated memory: {%s:b} Used: {%s:b} Available: {%s:b}</value>
-                <value lang="ru">Выделенная память: {%s:b} Занятая: {%s:b} Доступная: {%s:b}</value>
+                <value lang="zh-CN">Выделенная память: {%s:b} Занятая: {%s:b} Доступная: {%s:b}</value>
                 <value lang="pl">Przydzielonej pamięci: {%s:b} Użyty: {%s:b} Dostępny: {%s:b}</value>
                 <value lang="ar">الذاكرة المحجوزة: {%s:b} مستخدم: {%s:b} متوفر: {%s:b}</value>
                 <value lang="es">Memoria asignada: {%s:b} Usado: {%s:b} Disponible: {%s:b}</value>
@@ -1449,7 +1449,7 @@
         <Dictionary name="WebFileDrop" prefix="filedrop">
             <record key="drop">
                 <value lang="en">Drop files here</value>
-                <value lang="ru">Перетащите файлы сюда</value>
+                <value lang="zh-CN">Перетащите файлы сюда</value>
                 <value lang="pl">Puść pliki tutaj</value>
                 <value lang="ar">أسقط الملفات هنا</value>
                 <value lang="es">Soltar archivos aquí</value>
@@ -1465,7 +1465,7 @@
         <Dictionary name="WebHotkeyField" prefix="hotkeyfield">
             <record key="press">
                 <value lang="en">Press any key</value>
-                <value lang="ru">Выберите горячую клавишу</value>
+                <value lang="zh-CN">Выберите горячую клавишу</value>
                 <value lang="pl">Naciśnij jakiś klawisz</value>
                 <value lang="ar">اضغط أي مفتاح</value>
                 <value lang="es">Presione cualquier tecla</value>
@@ -1481,7 +1481,7 @@
         <Dictionary name="WebCalendar" prefix="calendar">
             <record key="weekNumber">
                 <value lang="en">#</value>
-                <value lang="ru">#</value>
+                <value lang="zh-CN">#</value>
                 <value lang="pl">#</value>
                 <value lang="ar">#</value>
                 <value lang="es">#</value>
@@ -1495,7 +1495,7 @@
             </record>
             <record key="dayOfWeek.1">
                 <value lang="en">Mon</value>
-                <value lang="ru">Пн</value>
+                <value lang="zh-CN">Пн</value>
                 <value lang="pl">Pon</value>
                 <value lang="ar">الاثنين</value>
                 <value lang="es">Lun</value>
@@ -1509,7 +1509,7 @@
             </record>
             <record key="dayOfWeek.2">
                 <value lang="en">Tue</value>
-                <value lang="ru">Вт</value>
+                <value lang="zh-CN">Вт</value>
                 <value lang="pl">Wt</value>
                 <value lang="ar">الثلاثاء</value>
                 <value lang="es">Mar</value>
@@ -1523,7 +1523,7 @@
             </record>
             <record key="dayOfWeek.3">
                 <value lang="en">Wed</value>
-                <value lang="ru">Ср</value>
+                <value lang="zh-CN">Ср</value>
                 <value lang="pl">Śr</value>
                 <value lang="ar">الأربعاء</value>
                 <value lang="es">Mier</value>
@@ -1537,7 +1537,7 @@
             </record>
             <record key="dayOfWeek.4">
                 <value lang="en">Thu</value>
-                <value lang="ru">Чт</value>
+                <value lang="zh-CN">Чт</value>
                 <value lang="pl">Czw</value>
                 <value lang="ar">الخميس</value>
                 <value lang="es">Jue</value>
@@ -1551,7 +1551,7 @@
             </record>
             <record key="dayOfWeek.5">
                 <value lang="en">Fri</value>
-                <value lang="ru">Пт</value>
+                <value lang="zh-CN">Пт</value>
                 <value lang="pl">Pt</value>
                 <value lang="ar">الجمعة</value>
                 <value lang="es">Vier</value>
@@ -1565,7 +1565,7 @@
             </record>
             <record key="dayOfWeek.6">
                 <value lang="en">Sat</value>
-                <value lang="ru">Сб</value>
+                <value lang="zh-CN">Сб</value>
                 <value lang="pl">Sob</value>
                 <value lang="ar">السبت</value>
                 <value lang="es">Sab</value>
@@ -1579,7 +1579,7 @@
             </record>
             <record key="dayOfWeek.7">
                 <value lang="en">Sun</value>
-                <value lang="ru">Вс</value>
+                <value lang="zh-CN">Вс</value>
                 <value lang="pl">Niedz</value>
                 <value lang="ar">الأحد</value>
                 <value lang="es">Dom</value>
@@ -1595,7 +1595,7 @@
         <Dictionary name="NinePatchEditor" prefix="npeditor">
             <record key="title">
                 <value lang="en">Nine-patch editor %s</value>
-                <value lang="ru">Nine-patch редактор %s</value>
+                <value lang="zh-CN">Nine-patch редактор %s</value>
                 <value lang="pl">Edytor Nine-patch %s</value>
                 <value lang="ar">Nine-patch المحرر %s</value>
                 <value lang="es">Editor Nine-patch %s</value>
@@ -1609,7 +1609,7 @@
             </record>
             <record key="openImage">
                 <value lang="en" state="tooltip">Open image</value>
-                <value lang="ru" state="tooltip">Открыть изображение</value>
+                <value lang="zh-CN" state="tooltip">Открыть изображение</value>
                 <value lang="pl" state="tooltip">Otwórz obraz</value>
                 <value lang="ar" state="tooltip">فتح صورة</value>
                 <value lang="es" state="tooltip">Abrir imagen</value>
@@ -1623,7 +1623,7 @@
             </record>
             <record key="openImage.title">
                 <value lang="en" state="tooltip">Choose image</value>
-                <value lang="ru" state="tooltip">Выберите изображение</value>
+                <value lang="zh-CN" state="tooltip">Выберите изображение</value>
                 <value lang="pl" state="tooltip">Wybierz obraz</value>
                 <value lang="ar" state="tooltip">اختر صورة</value>
                 <value lang="es" state="tooltip">Elegir imagen</value>
@@ -1637,7 +1637,7 @@
             </record>
             <record key="saveImage">
                 <value lang="en" state="tooltip">Save image</value>
-                <value lang="ru" state="tooltip">Сохранить изображение</value>
+                <value lang="zh-CN" state="tooltip">Сохранить изображение</value>
                 <value lang="pl" state="tooltip">Zapisz obrazek</value>
                 <value lang="ar" state="tooltip">حفظ الصورة</value>
                 <value lang="es" state="tooltip">Guardar imagen</value>
@@ -1651,7 +1651,7 @@
             </record>
             <record key="saveImageAs">
                 <value lang="en" state="tooltip">Save image as</value>
-                <value lang="ru" state="tooltip">Сохранить изображение как</value>
+                <value lang="zh-CN" state="tooltip">Сохранить изображение как</value>
                 <value lang="pl" state="tooltip">Zapisz obraz jako</value>
                 <value lang="ar" state="tooltip">حفظ الصورة باسم</value>
                 <value lang="es" state="tooltip">Guardar imagen como</value>
@@ -1665,7 +1665,7 @@
             </record>
             <record key="saveImageAs.title">
                 <value lang="en" state="tooltip">Choose file to save into</value>
-                <value lang="ru" state="tooltip">Выберите файл для сохранения</value>
+                <value lang="zh-CN" state="tooltip">Выберите файл для сохранения</value>
                 <value lang="pl" state="tooltip">Wybierz plik do zapisu</value>
                 <value lang="ar" state="tooltip">اختر الملف للحفظ فيه</value>
                 <value lang="es" state="tooltip">Elegir archivo para guardar en</value>
@@ -1679,7 +1679,7 @@
             </record>
             <record key="undo">
                 <value lang="en" state="tooltip">Undo</value>
-                <value lang="ru" state="tooltip">Отмена</value>
+                <value lang="zh-CN" state="tooltip">Отмена</value>
                 <value lang="pl" state="tooltip">Cofnij</value>
                 <value lang="ar" state="tooltip">تراجع</value>
                 <value lang="es" state="tooltip">Deshacer</value>
@@ -1693,7 +1693,7 @@
             </record>
             <record key="redo">
                 <value lang="en" state="tooltip">Redo</value>
-                <value lang="ru" state="tooltip">Повтор</value>
+                <value lang="zh-CN" state="tooltip">Повтор</value>
                 <value lang="pl" state="tooltip">Powtórz</value>
                 <value lang="ar" state="tooltip">أعد</value>
                 <value lang="es" state="tooltip">Rehacer</value>
@@ -1707,7 +1707,7 @@
             </record>
             <record key="copyInfo">
                 <value lang="en" state="tooltip">Copy patch locations</value>
-                <value lang="ru" state="tooltip">Копировать расположение патчей</value>
+                <value lang="zh-CN" state="tooltip">Копировать расположение патчей</value>
                 <value lang="pl" state="tooltip">Skopiuj miejsca poprawki</value>
                 <value lang="ar" state="tooltip">انسخ مكان النقط</value>
                 <value lang="es" state="tooltip">Copiar localizaciones de parches</value>
@@ -1721,7 +1721,7 @@
             </record>
             <record key="pasteInfo">
                 <value lang="en" state="tooltip">Paste patch locations</value>
-                <value lang="ru" state="tooltip">Вставить расположение патчей</value>
+                <value lang="zh-CN" state="tooltip">Вставить расположение патчей</value>
                 <value lang="pl" state="tooltip">Wklej miejsca poprawki</value>
                 <value lang="ar" state="tooltip">لصق مكان النقط</value>
                 <value lang="es" state="tooltip">Pegar localizaciones de parches</value>
@@ -1735,7 +1735,7 @@
             </record>
             <record key="rotateCCW">
                 <value lang="en" state="tooltip">Rotate by 90 degrees CCW</value>
-                <value lang="ru" state="tooltip">Поворот на 90 градусов против часовой стрелки</value>
+                <value lang="zh-CN" state="tooltip">Поворот на 90 градусов против часовой стрелки</value>
                 <value lang="pl" state="tooltip">Obrót o 90 stopni w lewo</value>
                 <value lang="ar" state="tooltip">تدوير 90 درجة عكس عقارب الساعة</value>
                 <value lang="es" state="tooltip">Girar 90 grados en sentido antihorario</value>
@@ -1749,7 +1749,7 @@
             </record>
             <record key="rotateCW">
                 <value lang="en" state="tooltip">Rotate by 90 degrees CW</value>
-                <value lang="ru" state="tooltip">Поворот на 90 градусов по часовой стрелке</value>
+                <value lang="zh-CN" state="tooltip">Поворот на 90 градусов по часовой стрелке</value>
                 <value lang="pl" state="tooltip">Obrót o 90 stopni w prawo</value>
                 <value lang="ar" state="tooltip">تدوير 90 درجة في اتجاه عقارب الساعة</value>
                 <value lang="es" state="tooltip">Gire 90 grados hacia la derecha</value>
@@ -1763,7 +1763,7 @@
             </record>
             <record key="rotate180">
                 <value lang="en" state="tooltip">Rotate by 180 degrees</value>
-                <value lang="ru" state="tooltip">Поворот на 180 градусов</value>
+                <value lang="zh-CN" state="tooltip">Поворот на 180 градусов</value>
                 <value lang="pl" state="tooltip">Obracać o 180 stopni</value>
                 <value lang="ar" state="tooltip">تدوير بمقدار 180 درجة</value>
                 <value lang="es" state="tooltip">Girar 180 grados</value>
@@ -1777,7 +1777,7 @@
             </record>
             <record key="preview.text">
                 <value lang="en">Simple text</value>
-                <value lang="ru">Простой текст</value>
+                <value lang="zh-CN">Простой текст</value>
                 <value lang="pl">Prosty tekst</value>
                 <value lang="ar">كتابة</value>
                 <value lang="es">Texto simple</value>
@@ -1791,7 +1791,7 @@
             </record>
             <record key="preview.showIcon">
                 <value lang="en" state="tooltip">Show icon</value>
-                <value lang="ru" state="tooltip">Показывать иконку</value>
+                <value lang="zh-CN" state="tooltip">Показывать иконку</value>
                 <value lang="pl" state="tooltip">Pokaż ikone</value>
                 <value lang="ar" state="tooltip">أظهر الأيقونة</value>
                 <value lang="es" state="tooltip">Mostrar ícono</value>
@@ -1805,7 +1805,7 @@
             </record>
             <record key="preview.showText">
                 <value lang="en" state="tooltip">Show text</value>
-                <value lang="ru" state="tooltip">Показывать текст</value>
+                <value lang="zh-CN" state="tooltip">Показывать текст</value>
                 <value lang="pl" state="tooltip">Pokaż tekst</value>
                 <value lang="ar" state="tooltip">أظهر الكتابة</value>
                 <value lang="es" state="tooltip">Mostrar texto</value>
@@ -1819,7 +1819,7 @@
             </record>
             <record key="preview.transparentBackground">
                 <value lang="en" state="tooltip">Show transparent background</value>
-                <value lang="ru" state="tooltip">Показывать прозрачный фон</value>
+                <value lang="zh-CN" state="tooltip">Показывать прозрачный фон</value>
                 <value lang="pl" state="tooltip">Pokaż przeźroczyste tło</value>
                 <value lang="ar" state="tooltip">أظهر الخلفية الشفافة</value>
                 <value lang="es" state="tooltip">Mostrar fondo transparente</value>
@@ -1833,7 +1833,7 @@
             </record>
             <record key="preview.coloredBackground">
                 <value lang="en" state="tooltip">Show colored background</value>
-                <value lang="ru" state="tooltip">Показывать цветной фон</value>
+                <value lang="zh-CN" state="tooltip">Показывать цветной фон</value>
                 <value lang="pl" state="tooltip">Pokaż kolorowe tło</value>
                 <value lang="ar" state="tooltip">أظهر الخلفية الملونة</value>
                 <value lang="es" state="tooltip">Mostrar fondo colorido</value>
@@ -1847,7 +1847,7 @@
             </record>
             <record key="preview.foregroundColor">
                 <value lang="en" state="tooltip">Text color</value>
-                <value lang="ru" state="tooltip">Цвет текста</value>
+                <value lang="zh-CN" state="tooltip">Цвет текста</value>
                 <value lang="pl" state="tooltip">Kolor tekstu</value>
                 <value lang="ar" state="tooltip">لون الكتابة</value>
                 <value lang="es" state="tooltip">Color del texto</value>
@@ -1861,7 +1861,7 @@
             </record>
             <record key="showSpacing">
                 <value lang="en" state="tooltip">Display spacing length between guidelines</value>
-                <value lang="ru" state="tooltip">Показывать расстояние между направляющими</value>
+                <value lang="zh-CN" state="tooltip">Показывать расстояние между направляющими</value>
                 <value lang="pl" state="tooltip">Pokaż długość odstępu pomiędzy prowadnicami</value>
                 <value lang="ar" state="tooltip">أظهر المسافات بين الأسطر</value>
                 <value lang="es" state="tooltip">Desplegar longitud de espaciamiento entre las directrices</value>
@@ -1875,7 +1875,7 @@
             </record>
             <record key="showRuler">
                 <value lang="en" state="tooltip">Show ruler</value>
-                <value lang="ru" state="tooltip">Показывать линейку</value>
+                <value lang="zh-CN" state="tooltip">Показывать линейку</value>
                 <value lang="pl" state="tooltip">Pokaż linie</value>
                 <value lang="ar" state="tooltip">أظهر المسطرة</value>
                 <value lang="es" state="tooltip">Mostrar regla</value>
@@ -1889,7 +1889,7 @@
             </record>
             <record key="fillContent">
                 <value lang="en" state="tooltip">Show content area</value>
-                <value lang="ru" state="tooltip">Показывать область содержимого</value>
+                <value lang="zh-CN" state="tooltip">Показывать область содержимого</value>
                 <value lang="pl" state="tooltip">Pokaż zawartość obszaru</value>
                 <value lang="ar" state="tooltip">أظهر مكان المحتوى</value>
                 <value lang="es" state="tooltip">Mostrar área de contenido</value>
@@ -1903,7 +1903,7 @@
             </record>
             <record key="fillStretch">
                 <value lang="en" state="tooltip">Show stretched areas</value>
-                <value lang="ru" state="tooltip">Показывать растягиваемые области</value>
+                <value lang="zh-CN" state="tooltip">Показывать растягиваемые области</value>
                 <value lang="pl" state="tooltip">Pokaż rozciągniete obszary</value>
                 <value lang="ar" state="tooltip">أظهر الأماكن الممدودة</value>
                 <value lang="es" state="tooltip">Mostrar áreas extendidas</value>
@@ -1917,7 +1917,7 @@
             </record>
             <record key="rulerCursor">
                 <value lang="en" state="tooltip">Show cursor position on ruler</value>
-                <value lang="ru" state="tooltip">Показывать положение курсора на линейке</value>
+                <value lang="zh-CN" state="tooltip">Показывать положение курсора на линейке</value>
                 <value lang="pl" state="tooltip">Pokaż pozycję kursora na linijce</value>
                 <value lang="ar" state="tooltip">أظهر موضع المؤشر على المسطرة</value>
                 <value lang="es" state="tooltip">Mostrar posición del cursor en regla</value>
@@ -1931,7 +1931,7 @@
             </record>
             <record key="areaCursor">
                 <value lang="en" state="tooltip">Show cursor position on area</value>
-                <value lang="ru" state="tooltip">Показывать положение курсора на области</value>
+                <value lang="zh-CN" state="tooltip">Показывать положение курсора на области</value>
                 <value lang="pl" state="tooltip">Pokaż pozycję kursora na obszarze</value>
                 <value lang="ar" state="tooltip">أظهر موضع المؤشر على المنطقة</value>
                 <value lang="es" state="tooltip">Mostrar posición del cursor en el área de</value>
@@ -1945,7 +1945,7 @@
             </record>
             <record key="saveChanges.title">
                 <value lang="en">Confirm save</value>
-                <value lang="ru">Подтверждение сохранения</value>
+                <value lang="zh-CN">Подтверждение сохранения</value>
                 <value lang="pl">Potwierdzenie zapisu</value>
                 <value lang="ar">تأكيد الحفظ</value>
                 <value lang="es">Confirmar guardado</value>
@@ -1959,7 +1959,7 @@
             </record>
             <record key="saveChanges.text">
                 <value lang="en">Do you want to save edited image?</value>
-                <value lang="ru">Сохранить изменённое изображение?</value>
+                <value lang="zh-CN">Сохранить изменённое изображение?</value>
                 <value lang="pl">Chcesz zapisać zmodyfikowany obraz?</value>
                 <value lang="ar">هل ترغب في حفظ التغييرات؟</value>
                 <value lang="es">¿Desea guardar la imagen editada?</value>
@@ -1975,7 +1975,7 @@
         <Dictionary name="WebAsyncTreeFilterField" prefix="treefilter">
             <record key="inputprompt">
                 <value lang="en" state="input-prompt">Search...</value>
-                <value lang="ru" state="input-prompt">Искать...</value>
+                <value lang="zh-CN" state="input-prompt">Искать...</value>
                 <value lang="pl" state="input-prompt">Szukaj...</value>
                 <value lang="ar" state="input-prompt">بحث ...</value>
                 <value lang="es" state="input-prompt">Buscar...</value>
@@ -1991,7 +1991,7 @@
         <Dictionary name="WebDocumentPane" prefix="docpane">
             <record key="close">
                 <value lang="en">Close</value>
-                <value lang="ru">Закрыть</value>
+                <value lang="zh-CN">Закрыть</value>
                 <value lang="pl">Blisko</value>
                 <value lang="ar">إغلاق</value>
                 <value lang="es">Cerca</value>
@@ -2005,7 +2005,7 @@
             </record>
             <record key="closeAll">
                 <value lang="en">Close all</value>
-                <value lang="ru">Закрыть все</value>
+                <value lang="zh-CN">Закрыть все</value>
                 <value lang="pl">Zamknij wszystkie</value>
                 <value lang="ar">إغلاق الكل</value>
                 <value lang="es">Cierra todo</value>
@@ -2019,7 +2019,7 @@
             </record>
             <record key="closeOthers">
                 <value lang="en">Close others</value>
-                <value lang="ru">Закрыть остальные</value>
+                <value lang="zh-CN">Закрыть остальные</value>
                 <value lang="pl">Zamknij inne</value>
                 <value lang="ar">أغلق البقية</value>
                 <value lang="es">Cerrar demás</value>
@@ -2033,7 +2033,7 @@
             </record>
             <record key="left">
                 <value lang="en">Move to left group</value>
-                <value lang="ru">Переместить в левую группу</value>
+                <value lang="zh-CN">Переместить в левую группу</value>
                 <value lang="pl">Przenieść do lewej grupy</value>
                 <value lang="ar">انتقال إلى مجموعة اليسار</value>
                 <value lang="es">Mover al grupo de la izquierda</value>
@@ -2047,7 +2047,7 @@
             </record>
             <record key="right">
                 <value lang="en">Move to right group</value>
-                <value lang="ru">Переместить в правую группу</value>
+                <value lang="zh-CN">Переместить в правую группу</value>
                 <value lang="pl">Przenieść się do odpowiedniej grupy</value>
                 <value lang="ar">انتقال إلى مجموعة اليمين</value>
                 <value lang="es">Mover al grupo correcto</value>
@@ -2061,7 +2061,7 @@
             </record>
             <record key="top">
                 <value lang="en">Move to top group</value>
-                <value lang="ru">Переместить в верхнюю группу</value>
+                <value lang="zh-CN">Переместить в верхнюю группу</value>
                 <value lang="pl">Przesuń do góry grupy</value>
                 <value lang="ar">انتقال إلى المجموعة العلوية</value>
                 <value lang="es">Mover al grupo de cabeza</value>
@@ -2075,7 +2075,7 @@
             </record>
             <record key="bottom">
                 <value lang="en">Move to bottom group</value>
-                <value lang="ru">Переместить в нижнюю группу</value>
+                <value lang="zh-CN">Переместить в нижнюю группу</value>
                 <value lang="pl">Przenieś do grupy dolnej</value>
                 <value lang="ar">الانتقال إلى المجموعة السفلية</value>
                 <value lang="es">Mover al grupo inferior</value>
@@ -2089,7 +2089,7 @@
             </record>
             <record key="rotate">
                 <value lang="en">Change split orientation</value>
-                <value lang="ru">Сменить ориентацию разделителя</value>
+                <value lang="zh-CN">Сменить ориентацию разделителя</value>
                 <value lang="pl">Zmienić orientację podziału</value>
                 <value lang="ar">تغيير اتجاه التقسيم</value>
                 <value lang="es">Cambiar la orientación de división</value>
@@ -2103,7 +2103,7 @@
             </record>
             <record key="swap">
                 <value lang="en">Swap groups</value>
-                <value lang="ru">Поменять группы местами</value>
+                <value lang="zh-CN">Поменять группы местами</value>
                 <value lang="pl">Grupy swapowe</value>
                 <value lang="ar">مجموعات Swap</value>
                 <value lang="es">Grupos de swap</value>
@@ -2117,7 +2117,7 @@
             </record>
             <record key="unsplit">
                 <value lang="en">Combine groups</value>
-                <value lang="ru">Объединить группы</value>
+                <value lang="zh-CN">Объединить группы</value>
                 <value lang="pl">łączyć grupy</value>
                 <value lang="ar">الجمع بين المجموعات</value>
                 <value lang="es">Combine grupos</value>
@@ -2131,7 +2131,7 @@
             </record>
             <record key="unsplitall">
                 <value lang="en">Combine all groups</value>
-                <value lang="ru">Объединить все группы</value>
+                <value lang="zh-CN">Объединить все группы</value>
                 <value lang="pl">Połączyć wszystkie grupy</value>
                 <value lang="ar">الجمع بين جميع المجموعات</value>
                 <value lang="es">Combine todos los grupos</value>
@@ -2148,7 +2148,7 @@
             <Dictionary name="WebDockableFrame" prefix="frame">
                 <record key="minimize">
                     <value lang="en" state="tooltip">Hide</value>
-                    <value lang="ru" state="tooltip">Скрыть</value>
+                    <value lang="zh-CN" state="tooltip">Скрыть</value>
                     <value lang="pl" state="tooltip">Ukryć</value>
                     <value lang="ar" state="tooltip">إخفاء</value>
                     <value lang="es" state="tooltip">Esconder</value>
@@ -2162,7 +2162,7 @@
                 </record>
                 <record key="dock">
                     <value lang="en" state="tooltip">Dock</value>
-                    <value lang="ru" state="tooltip">Закрепить</value>
+                    <value lang="zh-CN" state="tooltip">Закрепить</value>
                     <value lang="pl" state="tooltip">Zadokować</value>
                     <value lang="ar" state="tooltip">إلى قفص الاتهام</value>
                     <value lang="es" state="tooltip">Para atracar</value>
@@ -2176,7 +2176,7 @@
                 </record>
                 <record key="float">
                     <value lang="en" state="tooltip">Detach</value>
-                    <value lang="ru" state="tooltip">Открепить</value>
+                    <value lang="zh-CN" state="tooltip">Открепить</value>
                     <value lang="pl" state="tooltip">Odłączyć</value>
                     <value lang="ar" state="tooltip">فصل</value>
                     <value lang="es" state="tooltip">Despegar</value>
@@ -2190,7 +2190,7 @@
                 </record>
                 <record key="restore">
                     <value lang="en" state="tooltip">Restore size</value>
-                    <value lang="ru" state="tooltip">Восстановить размер</value>
+                    <value lang="zh-CN" state="tooltip">Восстановить размер</value>
                     <value lang="pl" state="tooltip">Przywróć rozmiar</value>
                     <value lang="ar" state="tooltip">استعادة الحجم</value>
                     <value lang="es" state="tooltip">Restaurar tamaño</value>
@@ -2204,7 +2204,7 @@
                 </record>
                 <record key="maximize">
                     <value lang="en" state="tooltip">Maximize</value>
-                    <value lang="ru" state="tooltip">Развернуть</value>
+                    <value lang="zh-CN" state="tooltip">Развернуть</value>
                     <value lang="pl" state="tooltip">Wyolbrzymiać</value>
                     <value lang="ar" state="tooltip">تحقيق أقصى قدر</value>
                     <value lang="es" state="tooltip">Maximizar</value>
@@ -2218,7 +2218,7 @@
                 </record>
                 <record key="close">
                     <value lang="en" state="tooltip">Close</value>
-                    <value lang="ru" state="tooltip">Закрыть</value>
+                    <value lang="zh-CN" state="tooltip">Закрыть</value>
                     <value lang="pl" state="tooltip">Blisko</value>
                     <value lang="ar" state="tooltip">قريب</value>
                     <value lang="es" state="tooltip">Cerca</value>
@@ -2235,7 +2235,7 @@
         <Dictionary name="InterfaceInspector" prefix="inspector">
             <record key="windows">
                 <value lang="en">All available windows</value>
-                <value lang="ru">Все доступные окна</value>
+                <value lang="zh-CN">Все доступные окна</value>
                 <value lang="pl"></value>
                 <value lang="ar"></value>
                 <value lang="es"></value>
@@ -2251,7 +2251,7 @@
     </Dictionary>
     <Translations>
         <Translation lang="en" title="English" author="mgarin" />
-        <Translation lang="ru" title="Русский" author="mgarin" />
+        <Translation lang="zh-CN" title="中文" author="mgarin" />
         <Translation lang="pl" title="Polski" author="sciepa" />
         <Translation lang="ar" title="العربية" author="Abu Abdullah" />
         <Translation lang="es" title="Español" author="pablovilas" />
