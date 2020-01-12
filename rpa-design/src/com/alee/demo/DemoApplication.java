@@ -31,6 +31,7 @@ import com.alee.demo.frames.inspector.InspectorFrame;
 import com.alee.demo.frames.pallete.PaletteFrame;
 import com.alee.demo.frames.source.SourceFrame;
 import com.alee.demo.frames.style.StyleFrame;
+import com.alee.demo.frames.toolbar.WebEditorToolBar;
 import com.alee.demo.skin.*;
 import com.alee.demo.skin.decoration.FeatureStateBackground;
 import com.alee.demo.ui.tools.*;
@@ -266,15 +267,8 @@ public final class DemoApplication extends WebFrame {
 	 * Initializes demo application toolbar and its content.
 	 */
 	private void initializeToolBar(DemoApplication application) {
-		final WebToolBar toolBar = new WebToolBar(StyleId.toolbarAttachedNorth);
-		toolBar.setFloatable(false);
 
-		toolBar.add(new EditorToolBar(application.getGraphEditor(), JToolBar.HORIZONTAL));
-		toolBar.addToEnd(new SkinChooserTool());
-		toolBar.addSeparator();
-		toolBar.addToEnd(new LanguageChooserTool());
-		toolBar.addToEnd(new MagnifierToggleTool(DemoApplication.this));
-		add(toolBar, BorderLayout.NORTH);
+		add(new WebEditorToolBar(application), BorderLayout.NORTH);
 	}
 
 	/**
