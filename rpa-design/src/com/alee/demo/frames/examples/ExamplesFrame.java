@@ -23,6 +23,7 @@ import com.alee.api.data.CompassDirection;
 import com.alee.demo.DemoApplication;
 import com.alee.demo.skin.DemoIcons;
 import com.alee.demo.skin.DemoStyles;
+import com.alee.extended.dock.DockableFrameState;
 import com.alee.extended.dock.WebDockableFrame;
 import com.alee.extended.panel.GroupPanel;
 import com.alee.extended.panel.GroupingType;
@@ -58,8 +59,11 @@ public final class ExamplesFrame extends WebDockableFrame
     {
         super ( StyleId.dockableframeCompact, ID, DemoIcons.examples16, "demo.examples.title" );
         setPosition ( CompassDirection.west );
+        setState(DockableFrameState.docked);
         setClosable(false);
-        setShapeDetectionEnabled(false);
+        setDraggable(false);
+        setFloatable(false);
+        setShapeDetectionEnabled(true);
         setPreferredSize ( 300, 200 );
 
         // Examples tree

@@ -59,7 +59,8 @@ public final class StyleFrame extends WebDockableFrame
         setState ( DockableFrameState.minimized );
         setPosition ( CompassDirection.east );
         setClosable(false);
-        setShapeDetectionEnabled(false);
+        setDraggable(false);
+        setFloatable(false);
         setPreferredSize ( 300, 200 );
 
         // Source code area

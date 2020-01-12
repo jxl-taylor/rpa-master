@@ -49,7 +49,8 @@ public final class PaletteFrame extends WebDockableFrame {
 		setState(DockableFrameState.minimized);
 		setPosition(CompassDirection.west);
 		setClosable(false);
-
+		setDraggable(false);
+		setFloatable(false);
 		setPreferredSize(300, 200);
 
         // Creates the inner split pane that contains the library with the
