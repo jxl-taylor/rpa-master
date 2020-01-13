@@ -26,9 +26,11 @@ import com.alee.api.version.Version;
 import com.alee.demo.api.example.Example;
 import com.alee.demo.api.example.ExampleData;
 import com.alee.demo.content.ExamplesManager;
+import com.alee.demo.frames.debug.DebugFrame;
 import com.alee.demo.frames.examples.ExamplesFrame;
 import com.alee.demo.frames.inspector.InspectorFrame;
 import com.alee.demo.frames.pallete.PaletteFrame;
+import com.alee.demo.frames.run.RunFrame;
 import com.alee.demo.frames.source.SourceFrame;
 import com.alee.demo.frames.style.StyleFrame;
 import com.alee.demo.frames.toolbar.WebEditorToolBar;
@@ -122,6 +124,8 @@ public final class DemoApplication extends WebFrame {
 	private SourceFrame sourceFrame;
 	private InspectorFrame inspectorFrame;
 	private PaletteFrame paletteFrame;
+	private RunFrame runFrame;
+	private DebugFrame debugFrame;
 	private WebDocumentPane<ExampleData> examplesPane;
 
     public GraphEditor getGraphEditor() {
@@ -229,6 +233,12 @@ public final class DemoApplication extends WebFrame {
 		/**
 		 * Frames.
 		 */
+
+		runFrame = new RunFrame(this);
+		dockablePane.addFrame(runFrame);
+
+		debugFrame = new DebugFrame(this);
+		dockablePane.addFrame(debugFrame);
 
 		examplesFrame = new ExamplesFrame();
 		dockablePane.addFrame(examplesFrame);

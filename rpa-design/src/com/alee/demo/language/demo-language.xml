@@ -2,23 +2,23 @@
     <Dictionary name="Tools" prefix="tool">
         <record key="skin">
             <value lang="en" state="tooltip">Application skin</value>
-            <value lang="zh-CN" state="tooltip">Скин приложения</value>
+            <value lang="zh-CN" state="tooltip">应用皮肤</value>
         </record>
         <record key="orientation">
             <value lang="en" state="tooltip">Component orientation</value>
-            <value lang="zh-CN" state="tooltip">Ориентация компонентов</value>
+            <value lang="zh-CN" state="tooltip">组件方向</value>
         </record>
         <record key="orientation.ltr">
             <value lang="en">Left to right</value>
-            <value lang="zh-CN">Слева направо</value>
+            <value lang="zh-CN">从左向右</value>
         </record>
         <record key="orientation.rtl">
             <value lang="en">Right to left</value>
-            <value lang="zh-CN">Справа налево</value>
+            <value lang="zh-CN">从右向左</value>
         </record>
         <record key="language">
             <value lang="en" state="tooltip">Application language</value>
-            <value lang="zh-CN" state="tooltip">Язык приложения</value>
+            <value lang="zh-CN" state="tooltip">应用语言</value>
         </record>
         <record key="heatmap">
             <value lang="en">
@@ -26,8 +26,8 @@
                 <text state="tooltip">UI heatmap tool</text>
             </value>
             <value lang="zh-CN">
-                <text>Тепловая карта</text>
-                <text state="tooltip">Тепловая карта интерфейса</text>
+                <text>Heatmap</text>
+                <text state="tooltip">UI heatmap tool</text>
             </value>
         </record>
         <record key="magnifier">
@@ -36,33 +36,33 @@
                 <text state="tooltip">UI magnifier tool</text>
             </value>
             <value lang="zh-CN">
-                <text>Лупа</text>
-                <text state="tooltip">Лупа для увеличения интерфейса</text>
+                <text>放大</text>
+                <text state="tooltip">放大镜</text>
             </value>
         </record>
         <record key="magnifier.cursor">
             <value lang="en" state="tooltip">Display cursor position in zoomed area</value>
-            <value lang="zh-CN" state="tooltip">Показывать курсор в увеличенной области</value>
+            <value lang="zh-CN" state="tooltip">移动区域鼠标位置</value>
         </record>
     </Dictionary>
     <Dictionary name="Status bar" prefix="statusbar">
         <Dictionary name="Resources" prefix="resources">
             <record key="weblaf">
                 <value lang="en">Project site</value>
-                <value lang="zh-CN">Сайт проекта</value>
+                <value lang="zh-CN">项目网站</value>
             </record>
             <record key="github">
                 <value lang="en">GitHub project</value>
-                <value lang="zh-CN">GitHub проект</value>
+                <value lang="zh-CN">GitHub project</value>
             </record>
             <record key="gitter">
                 <value lang="en">Gitter Chat</value>
-                <value lang="zh-CN">Gitter Чат</value>
+                <value lang="zh-CN">Gitter Chat</value>
             </record>
         </Dictionary>
         <record key="jvm">
             <value lang="en">Running on: {%s:b}</value>
-            <value lang="zh-CN">Запущено на: {%s:b}</value>
+            <value lang="zh-CN">运行于: {%s:b}</value>
         </record>
     </Dictionary>
     <Dictionary name="Feature state" prefix="state">
@@ -72,7 +72,7 @@
         </record>
         <record key="beta.description">
             <value lang="en">Feature early preview</value>
-            <value lang="zh-CN">Раннее превью функциональности</value>
+            <value lang="zh-CN">新功能预览</value>
         </record>
         <record key="release">
             <value lang="en">New</value>
@@ -80,83 +80,95 @@
         </record>
         <record key="release.description">
             <value lang="en">Feature released in last udpate</value>
-            <value lang="zh-CN">Функциональность добавленная в последнем обновлении</value>
+            <value lang="zh-CN">即将发布功能</value>
         </record>
         <record key="common">
             <value lang="en">Stable</value>
-            <value lang="zh-CN">Stable</value>
+            <value lang="zh-CN">稳定</value>
         </record>
         <record key="common.description">
             <value lang="en">Stable library feature</value>
-            <value lang="zh-CN">Стабильная функциональность библиотеки</value>
+            <value lang="zh-CN">稳定库功能</value>
         </record>
         <record key="updated">
             <value lang="en">Updated</value>
-            <value lang="zh-CN">Updated</value>
+            <value lang="zh-CN">已更新</value>
         </record>
         <record key="updated.description">
             <value lang="en">Feature improved in last udpate</value>
-            <value lang="zh-CN">Функциональность улучшенная в последнем обновлении</value>
+            <value lang="zh-CN">最新版功能更新</value>
         </record>
         <record key="deprecated">
             <value lang="en">Deprecated</value>
-            <value lang="zh-CN">Deprecated</value>
+            <value lang="zh-CN">已废弃</value>
         </record>
         <record key="deprecated.description">
             <value lang="en">Deprecated feature that will soon be removed</value>
-            <value lang="zh-CN">Устаревшая функциональность которая будет удалена</value>
+            <value lang="zh-CN">即将废弃的功能</value>
         </record>
     </Dictionary>
     <Dictionary name="Examples frame" prefix="examples">
         <record key="title">
             <value lang="en">Examples</value>
-            <value lang="zh-CN">Примеры</value>
+            <value lang="zh-CN">样例</value>
         </record>
     </Dictionary>
     <Dictionary name="Pallete frame" prefix="pallete">
         <record key="title">
             <value lang="en">pallete</value>
-            <value lang="zh-CN">pallete</value>
+            <value lang="zh-CN">功能面板</value>
         </record>
     </Dictionary>
     <Dictionary name="Style frame" prefix="style">
         <record key="title">
             <value lang="en">Styling</value>
-            <value lang="zh-CN">Стилизация</value>
+            <value lang="zh-CN">样式</value>
         </record>
     </Dictionary>
     <Dictionary name="Source frame" prefix="source">
         <record key="title">
             <value lang="en">Source code</value>
-            <value lang="zh-CN">Исходный код</value>
+            <value lang="zh-CN">源码</value>
         </record>
     </Dictionary>
     <Dictionary name="Inspector frame" prefix="inspector">
         <record key="title">
             <value lang="en">Inspector</value>
-            <value lang="zh-CN">Инспектор</value>
+            <value lang="zh-CN">检查</value>
+        </record>
+    </Dictionary>
+    <Dictionary name="Run frame" prefix="run">
+        <record key="title">
+            <value lang="en">run</value>
+            <value lang="zh-CN">运行</value>
+        </record>
+    </Dictionary>
+    <Dictionary name="Debug frame" prefix="debug">
+        <record key="title">
+            <value lang="en">debug</value>
+            <value lang="zh-CN">调试</value>
         </record>
     </Dictionary>
     <Dictionary name="Content area" prefix="content">
         <Dictionary prefix="information.overlay">
             <record key="empty">
                 <value lang="en">Library version{br}{%s %s:b}{br}{br}Running on{br}{%s:b}{br}{%s %s:b}</value>
-                <value lang="zh-CN">Версия библиотеки{br}{%s %s:b}{br}{br}Запущена на{br}{%s:b}{br}{%s %s:b}</value>
+                <value lang="zh-CN">库版本{br}{%s %s:b}{br}{br}运行于{br}{%s:b}{br}{%s %s:b}</value>
             </record>
         </Dictionary>
         <Dictionary name="Example" prefix="example">
             <Dictionary name="Wiki" prefix="wiki">
                 <record key="oracle">
                     <value lang="en">JDK article:</value>
-                    <value lang="zh-CN">JDK статья:</value>
+                    <value lang="zh-CN">JDK 文章:</value>
                 </record>
                 <record key="weblaf">
                     <value lang="en">Wiki article:</value>
-                    <value lang="zh-CN">Wiki статья:</value>
+                    <value lang="zh-CN">Wiki 文章:</value>
                 </record>
                 <record key="none">
                     <value lang="en">No wiki articles for this component</value>
-                    <value lang="zh-CN">Статей по данному компоненту нет</value>
+                    <value lang="zh-CN">无文章</value>
                 </record>
             </Dictionary>
         </Dictionary>
@@ -167,23 +179,23 @@
                 <Dictionary prefix="column">
                     <record key="first.name">
                         <value lang="en">First name</value>
-                        <value lang="zh-CN">Имя</value>
+                        <value lang="zh-CN">名</value>
                     </record>
                     <record key="last.name">
                         <value lang="en">Last name</value>
-                        <value lang="zh-CN">Фамилия</value>
+                        <value lang="zh-CN">姓</value>
                     </record>
                     <record key="hobby">
                         <value lang="en">Hobby</value>
-                        <value lang="zh-CN">Хобби</value>
+                        <value lang="zh-CN">爱好</value>
                     </record>
                     <record key="age">
                         <value lang="en">Age</value>
-                        <value lang="zh-CN">Возраст</value>
+                        <value lang="zh-CN">年龄</value>
                     </record>
                     <record key="vegeterian">
                         <value lang="en">Vegeterian</value>
-                        <value lang="zh-CN">Вегетерианец</value>
+                        <value lang="zh-CN">素餐</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="row">
@@ -196,9 +208,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Кэти</text>
-                            <text state="last.name">Смитт</text>
-                            <text state="hobby">Сноубординг</text>
+                            <text state="first.name">Kathy</text>
+                            <text state="last.name">Smith</text>
+                            <text state="hobby">Snowboarding</text>
                             <text state="age">19</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -212,9 +224,9 @@
                             <text state="vegeterian">true</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Джон</text>
-                            <text state="last.name">Доэ</text>
-                            <text state="hobby">Гребля</text>
+                            <text state="first.name">John</text>
+                            <text state="last.name">Doe</text>
+                            <text state="hobby">Rowing</text>
                             <text state="age">32</text>
                             <text state="vegeterian">true</text>
                         </value>
@@ -244,9 +256,9 @@
                             <text state="vegeterian">true</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Джейн</text>
-                            <text state="last.name">Вайт</text>
-                            <text state="hobby">Прыжки с парашютом</text>
+                            <text state="first.name">Jane</text>
+                            <text state="last.name">White</text>
+                            <text state="hobby">Skydiving</text>
                             <text state="age">20</text>
                             <text state="vegeterian">true</text>
                         </value>
@@ -260,9 +272,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Джо</text>
-                            <text state="last.name">Браун</text>
-                            <text state="hobby">Плавание</text>
+                            <text state="first.name">Joe</text>
+                            <text state="last.name">Brown</text>
+                            <text state="hobby">Swimming</text>
                             <text state="age">14</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -276,9 +288,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Свэн</text>
-                            <text state="last.name">Алистер</text>
-                            <text state="hobby">Бокс</text>
+                            <text state="first.name">Sven</text>
+                            <text state="last.name">Alister</text>
+                            <text state="hobby">Boxing</text>
                             <text state="age">36</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -292,9 +304,9 @@
                             <text state="vegeterian">true</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Аллен</text>
-                            <text state="last.name">Сноу</text>
-                            <text state="hobby">Дайвинг</text>
+                            <text state="first.name">Allen</text>
+                            <text state="last.name">Snow</text>
+                            <text state="hobby">Diving</text>
                             <text state="age">18</text>
                             <text state="vegeterian">true</text>
                         </value>
@@ -308,9 +320,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Михаил</text>
-                            <text state="last.name">Гарин</text>
-                            <text state="hobby">Дзюдо</text>
+                            <text state="first.name">Mikle</text>
+                            <text state="last.name">Garin</text>
+                            <text state="hobby">Judo</text>
                             <text state="age">28</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -324,9 +336,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Джейк</text>
-                            <text state="last.name">Алдуин</text>
-                            <text state="hobby">Фехтование</text>
+                            <text state="first.name">Jake</text>
+                            <text state="last.name">Alduin</text>
+                            <text state="hobby">Fencing</text>
                             <text state="age">35</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -340,9 +352,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Эндрю</text>
-                            <text state="last.name">Гарфилд</text>
-                            <text state="hobby">Программирование</text>
+                            <text state="first.name">Andrew</text>
+                            <text state="last.name">Garfild</text>
+                            <text state="hobby">Programming</text>
                             <text state="age">26</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -356,9 +368,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Кэйт</text>
-                            <text state="last.name">Мэтью</text>
-                            <text state="hobby">Боулинг</text>
+                            <text state="first.name">Kate</text>
+                            <text state="last.name">Matthew</text>
+                            <text state="hobby">Bowling</text>
                             <text state="age">22</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -372,9 +384,9 @@
                             <text state="vegeterian">false</text>
                         </value>
                         <value lang="zh-CN">
-                            <text state="first.name">Пол</text>
-                            <text state="last.name">Джонсон</text>
-                            <text state="hobby">Моделирование</text>
+                            <text state="first.name">Paul</text>
+                            <text state="last.name">Johnson</text>
+                            <text state="hobby">Modelling</text>
                             <text state="age">38</text>
                             <text state="vegeterian">false</text>
                         </value>
@@ -384,15 +396,15 @@
             <Dictionary prefix="list">
                 <record key="item1">
                     <value lang="en">Today</value>
-                    <value lang="zh-CN">Сегодня</value>
+                    <value lang="zh-CN">今天</value>
                 </record>
                 <record key="item2">
                     <value lang="en">Tomorrow</value>
-                    <value lang="zh-CN">Завтра</value>
+                    <value lang="zh-CN">明天</value>
                 </record>
                 <record key="item3">
                     <value lang="en">Never</value>
-                    <value lang="zh-CN">Никогда</value>
+                    <value lang="zh-CN">从未</value>
                 </record>
             </Dictionary>
         </Dictionary>
@@ -400,24 +412,24 @@
             <Dictionary prefix="auth">
                 <record key="title">
                     <value lang="en">{Authorization form:b}</value>
-                    <value lang="zh-CN">{Форма авторизации:b}</value>
+                    <value lang="zh-CN">{应用表单:b}</value>
                 </record>
                 <record key="login">
                     <value lang="en">Login:</value>
-                    <value lang="zh-CN">Логин:</value>
+                    <value lang="zh-CN">用户名:</value>
                 </record>
                 <record key="password">
                     <value lang="en">Password:</value>
-                    <value lang="zh-CN">Пароль:</value>
+                    <value lang="zh-CN">密码:</value>
                 </record>
                 <Dictionary prefix="buttons">
                     <record key="login">
                         <value lang="en">Log in</value>
-                        <value lang="zh-CN">Войти</value>
+                        <value lang="zh-CN">登 录</value>
                     </record>
                     <record key="cancel">
                         <value lang="en">Cancel</value>
-                        <value lang="zh-CN">Отмена</value>
+                        <value lang="zh-CN">取消</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -427,7 +439,7 @@
         <Dictionary prefix="labels">
             <record key="title">
                 <value lang="en">Labels</value>
-                <value lang="zh-CN">Текстовые</value>
+                <value lang="zh-CN">Labels</value>
             </record>
             <Dictionary prefix="jlabel">
                 <record key="title">
@@ -437,37 +449,37 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Simple text</value>
-                        <value lang="zh-CN">Простой текст</value>
+                        <value lang="zh-CN">Simple text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="shadow">
                     <record key="title">
                         <value lang="en">Text with shadow</value>
-                        <value lang="zh-CN">Текст с тенью</value>
+                        <value lang="zh-CN">Text with shadow</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="tag">
                     <record key="title">
                         <value lang="en">Tag styling</value>
-                        <value lang="zh-CN">Стилизация тэга</value>
+                        <value lang="zh-CN">Tag styling</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="ccw">
                     <record key="title">
                         <value lang="en">Counter-clockwise text</value>
-                        <value lang="zh-CN">Текст против часовой</value>
+                        <value lang="zh-CN">Counter-clockwise text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="cw">
                     <record key="title">
                         <value lang="en">Clockwise text</value>
-                        <value lang="zh-CN">Текст по часовой</value>
+                        <value lang="zh-CN">Clockwise text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="separator">
                     <record key="title">
                         <value lang="en">Separator text</value>
-                        <value lang="zh-CN">Разделительный текст</value>
+                        <value lang="zh-CN">Separator text</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -479,37 +491,37 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Simple text</value>
-                        <value lang="zh-CN">Простой текст</value>
+                        <value lang="zh-CN">Simple text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="shadow">
                     <record key="title">
                         <value lang="en">Text with shadow</value>
-                        <value lang="zh-CN">Текст с тенью</value>
+                        <value lang="zh-CN">Text with shadow</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="tag">
                     <record key="title">
                         <value lang="en">Tag styling</value>
-                        <value lang="zh-CN">Стилизация тэга</value>
+                        <value lang="zh-CN">Tag styling</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="ccw">
                     <record key="title">
                         <value lang="en">Counter-clockwise text</value>
-                        <value lang="zh-CN">Текст против часовой</value>
+                        <value lang="zh-CN">Counter-clockwise text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="cw">
                     <record key="title">
                         <value lang="en">Clockwise text</value>
-                        <value lang="zh-CN">Текст по часовой</value>
+                        <value lang="zh-CN">Clockwise text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="separator">
                     <record key="title">
                         <value lang="en">Separator text</value>
-                        <value lang="zh-CN">Разделительный текст</value>
+                        <value lang="zh-CN">Separator text</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -521,19 +533,19 @@
                 <Dictionary prefix="text">
                     <record key="title">
                         <value lang="en">Based on text</value>
-                        <value lang="zh-CN">Основанный на тексте</value>
+                        <value lang="zh-CN">Based on text</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="code">
                     <record key="title">
                         <value lang="en">Based on KeyEvent</value>
-                        <value lang="zh-CN">Основанный на KeyEvent</value>
+                        <value lang="zh-CN">Based on KeyEvent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="data">
                     <record key="title">
                         <value lang="en">Based on HotkeyData</value>
-                        <value lang="zh-CN">Основанный на HotkeyData</value>
+                        <value lang="zh-CN"> on HotkeyData</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -551,7 +563,7 @@
                 <Dictionary prefix="email">
                     <record key="title">
                         <value lang="en">E-mail link</value>
-                        <value lang="zh-CN">Ссылка на E-mail</value>
+                        <value lang="zh-CN">>E-mail link</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="file">
@@ -563,15 +575,15 @@
                 <Dictionary prefix="action">
                     <record key="title">
                         <value lang="en">Custom action link</value>
-                        <value lang="zh-CN">Ссылка с действием</value>
+                        <value lang="zh-CN">Custom action link</value>
                     </record>
                     <record key="link">
                         <value lang="en">Show notification</value>
-                        <value lang="zh-CN">Показать уведомление</value>
+                        <value lang="zh-CN">Show notification</value>
                     </record>
                     <record key="notification">
                         <value lang="en">Simple notification on link click</value>
-                        <value lang="zh-CN">Простое уведомление по клику на ссылке</value>
+                        <value lang="zh-CN">Simple notification on link click</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -579,7 +591,7 @@
         <Dictionary prefix="tooltips">
             <record key="title">
                 <value lang="en">Tooltips</value>
-                <value lang="zh-CN">Подсказки</value>
+                <value lang="zh-CN">Tooltips</value>
             </record>
             <Dictionary prefix="jtooltip">
                 <record key="title">
@@ -589,7 +601,7 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Simple tooltip</value>
-                        <value lang="zh-CN">Простая подсказка</value>
+                        <value lang="zh-CN">Simple tooltip</value>
                     </record>
                     <record key="text">
                         <value lang="en">
@@ -597,8 +609,8 @@
                             <text state="swing-tooltip">Simple text within JToolTip popup</text>
                         </value>
                         <value lang="zh-CN">
-                            <text>Наведите для просмотра подсказки</text>
-                            <text state="swing-tooltip">Простой текст внутри JToolTip попапа</text>
+                            <text>Hover to see tooltip</text>
+                            <text state="swing-tooltip">Simple text within JToolTip popup</text>
                         </value>
                     </record>
                 </Dictionary>
@@ -611,15 +623,15 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Custom tooltip</value>
-                        <value lang="zh-CN">Кастомная подсказка</value>
+                        <value lang="zh-CN">Custom tooltip</value>
                     </record>
                     <record key="text">
                         <value lang="en">Hover to see tooltip</value>
-                        <value lang="zh-CN">Наведите для просмотра подсказки</value>
+                        <value lang="zh-CN">Hover to see tooltip</value>
                     </record>
                     <record key="tip">
                         <value lang="en">Simple text within WebCustomTooltip popup</value>
-                        <value lang="zh-CN">Простой текст внутри WebCustomTooltip попапа</value>
+                        <value lang="zh-CN">Simple text within WebCustomTooltip popup</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="instant">
@@ -629,187 +641,187 @@
                     </record>
                     <record key="text">
                         <value lang="en">Hover to see tooltip</value>
-                        <value lang="zh-CN">Наведите для просмотра подсказки</value>
+                        <value lang="zh-CN">Hover to see tooltip</value>
                     </record>
                     <record key="tip">
                         <value lang="en">Tooltip with zero display delay</value>
-                        <value lang="zh-CN">Посказка с нулевой задержкой показа</value>
+                        <value lang="zh-CN">Tooltip with zero display delay</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="multiple">
                     <record key="title">
                         <value lang="en">Multiple tooltips</value>
-                        <value lang="zh-CN">Мгножественные подсказки</value>
+                        <value lang="zh-CN">Multiple tooltips</value>
                     </record>
                     <record key="text">
                         <value lang="en">Hover to see tooltips</value>
-                        <value lang="zh-CN">Наведите для просмотра подсказок</value>
+                        <value lang="zh-CN">Hover to see tooltips</value>
                     </record>
                     <record key="tip.up">
                         <value lang="en">Upper tooltip</value>
-                        <value lang="zh-CN">Верхняя подсказка</value>
+                        <value lang="zh-CN">Upper tooltip</value>
                     </record>
                     <record key="tip.leading">
                         <value lang="en">Leading tooltip</value>
-                        <value lang="zh-CN">Левая подсказка</value>
+                        <value lang="zh-CN">Leading tooltip</value>
                     </record>
                     <record key="tip.trailing">
                         <value lang="en">Trailing tooltip</value>
-                        <value lang="zh-CN">Правая подсказка</value>
+                        <value lang="zh-CN">Trailing tooltip</value>
                     </record>
                     <record key="tip.down">
                         <value lang="en">Lower tooltip</value>
-                        <value lang="zh-CN">Нижняя подсказка</value>
+                        <value lang="zh-CN">Lower tooltip</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="hotkey">
                     <record key="title">
                         <value lang="en">Tooltip with hotkey</value>
-                        <value lang="zh-CN">Подсказка с хоткеем</value>
+                        <value lang="zh-CN">Tooltip with hotkey</value>
                     </record>
                     <record key="text">
                         <value lang="en">Pressed times: %s</value>
-                        <value lang="zh-CN">Была нажата: %s</value>
+                        <value lang="zh-CN">Pressed times: %s</value>
                     </record>
                     <record key="tip">
                         <value lang="en">Increase button counter</value>
-                        <value lang="zh-CN">Увеличить счётчик на кнопке</value>
+                        <value lang="zh-CN">Increase button counter</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="onetime">
                     <record key="title">
                         <value lang="en">One-time tooltip</value>
-                        <value lang="zh-CN">Одноразовая подсказка</value>
+                        <value lang="zh-CN">One-time tooltip</value>
                     </record>
                     <record key="text">
                         <value lang="en">Show tooltip</value>
-                        <value lang="zh-CN">Показать подсказку</value>
+                        <value lang="zh-CN">Show tooltip</value>
                     </record>
                     <record key="tip">
                         <value lang="en">One-time tooltip on click</value>
-                        <value lang="zh-CN">Одноразовая подсказка по клику</value>
+                        <value lang="zh-CN">One-time tooltip on click</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Customized tooltip</value>
-                        <value lang="zh-CN">Кастомизированная подсказка</value>
+                        <value lang="zh-CN">Customized tooltip</value>
                     </record>
                     <record key="text">
                         <value lang="en">Hover to see tooltip</value>
-                        <value lang="zh-CN">Наведите для просмотра подсказки</value>
+                        <value lang="zh-CN">Hover to see tooltip</value>
                     </record>
                     <record key="tip">
                         <value lang="en">Customized {tooltip:u} with {styled:c(255,155,155)} text inside {tm:sup}{br}Based on {WebStyledLabel:b} component</value>
-                        <value lang="zh-CN">Кастомизированная {подсказка:u} со {стилизованным:c(255,155,155)} текстом внутри {tm:sup}{br}Создана на основе {WebStyledLabel:b} компонента</value>
+                        <value lang="zh-CN">Customized {tooltip:u} with {styled:c(255,155,155)} text inside {tm:sup}{br}Based on {WebStyledLabel:b} component</value>
                     </record>
                 </Dictionary>
             </Dictionary>
             <Dictionary prefix="listtooltip">
                 <record key="title">
                     <value lang="en">Tooltips in JList</value>
-                    <value lang="zh-CN">Подсказки в JList</value>
+                    <value lang="zh-CN">Tooltips in JList</value>
                 </record>
                 <Dictionary prefix="swing">
                     <record key="title">
                         <value lang="en">Swing tooltips</value>
-                        <value lang="zh-CN">Swing подсказки</value>
+                        <value lang="zh-CN">Swing tooltips</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Custom tooltips</value>
-                        <value lang="zh-CN">Кастомные подсказки</value>
+                        <value lang="zh-CN">Custom tooltips</value>
                     </record>
                     <record key="cell">
                         <value lang="en">List cell tooltip: %s "%s"</value>
-                        <value lang="zh-CN">Подсказка к ячейке списка: %s "%s"</value>
+                        <value lang="zh-CN">List cell tooltip: %s "%s"</value>
                     </record>
                 </Dictionary>
             </Dictionary>
             <Dictionary prefix="tabletooltip">
                 <record key="title">
                     <value lang="en">Tooltips in JTable</value>
-                    <value lang="zh-CN">Подсказки в JTable</value>
+                    <value lang="zh-CN">Tooltips in JTable</value>
                 </record>
                 <Dictionary prefix="swing">
                     <record key="title">
                         <value lang="en">Swing tooltips</value>
-                        <value lang="zh-CN">Swing подсказки</value>
+                        <value lang="zh-CN">Swing tooltips</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Custom tooltips</value>
-                        <value lang="zh-CN">Кастомные подсказки</value>
+                        <value lang="zh-CN">Custom tooltips</value>
                     </record>
                     <record key="header">
                         <value lang="en">Column header tooltip: %s</value>
-                        <value lang="zh-CN">Подсказка к заголовоку колонки: %s</value>
+                        <value lang="zh-CN">Column header tooltip: %s</value>
                     </record>
                     <record key="cell">
                         <value lang="en">Table cell tooltip: (%s,%s) "%s"</value>
-                        <value lang="zh-CN">Подсказка к ячейке таблицы: (%s,%s) "%s"</value>
+                        <value lang="zh-CN">Table cell tooltip: (%s,%s) "%s"</value>
                     </record>
                 </Dictionary>
             </Dictionary>
             <Dictionary prefix="treetooltip">
                 <record key="title">
                     <value lang="en">Tooltips in JTree</value>
-                    <value lang="zh-CN">Подсказки в JTree</value>
+                    <value lang="zh-CN">Tooltips in JTree</value>
                 </record>
                 <Dictionary prefix="swing">
                     <record key="title">
                         <value lang="en">Swing tooltips</value>
-                        <value lang="zh-CN">Swing подсказки</value>
+                        <value lang="zh-CN">Swing tooltips</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="fullrow">
                     <record key="title">
                         <value lang="en">Full row Swing tooltips</value>
-                        <value lang="zh-CN">Swing подсказки на строку</value>
+                        <value lang="zh-CN">Full row Swing tooltips</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Custom tooltips</value>
-                        <value lang="zh-CN">Кастомные подсказки</value>
+                        <value lang="zh-CN">Custom tooltips</value>
                     </record>
                     <record key="node">
                         <value lang="en">Tree node at row %s and value "%s"</value>
-                        <value lang="zh-CN">Нода на строке %s со значением "%s"</value>
+                        <value lang="zh-CN">Tree node at row %s and value "%s"</value>
                     </record>
                 </Dictionary>
             </Dictionary>
             <Dictionary prefix="tabbedpanetooltip">
                 <record key="title">
                     <value lang="en">Tooltips in JTabbedPane</value>
-                    <value lang="zh-CN">Подсказки в JTabbedPane</value>
+                    <value lang="zh-CN">Tooltips in JTabbedPane</value>
                 </record>
                 <Dictionary prefix="data">
                     <record key="tab0">
                         <value lang="en">Tab 0</value>
-                        <value lang="zh-CN">Таб 0</value>
+                        <value lang="zh-CN">Tab 0</value>
                     </record>
                     <record key="tab1">
                         <value lang="en">Tab 1</value>
-                        <value lang="zh-CN">Таб 1</value>
+                        <value lang="zh-CN">Tab 1</value>
                     </record>
                     <record key="tab2">
                         <value lang="en">Tab 2</value>
-                        <value lang="zh-CN">Таб 2</value>
+                        <value lang="zh-CN">Tab 2</value>
                     </record>
                     <record key="tab3">
                         <value lang="en">Tab 3</value>
-                        <value lang="zh-CN">Таб 3</value>
+                        <value lang="zh-CN">Tab 3</value>
                     </record>
                     <record key="tab4">
                         <value lang="en">Tab 4</value>
-                        <value lang="zh-CN">Таб 4</value>
+                        <value lang="zh-CN">Tab 4</value>
                     </record>
                     <record key="tab5">
                         <value lang="en">Tab 5</value>
-                        <value lang="zh-CN">Таб 5</value>
+                        <value lang="zh-CN">Tab 5</value>
                     </record>
                     <record key="tab6">
                         <value lang="en">Tab 6</value>
@@ -817,15 +829,15 @@
                     </record>
                     <record key="tab7">
                         <value lang="en">Tab 7</value>
-                        <value lang="zh-CN">Таб 7</value>
+                        <value lang="zh-CN">Tab 7</value>
                     </record>
                     <record key="content">
                         <value lang="en">Sample tab content{br}(click to focus this)</value>
-                        <value lang="zh-CN">Пример таб контента{br}(кликните для передачи фокуса)</value>
+                        <value lang="zh-CN">Sample tab content{br}(click to focus this)</value>
                     </record>
                     <record key="tooltip">
                         <value lang="en">Tab at index %s and name "%s"</value>
-                        <value lang="zh-CN">Таб с индексом %s и именем "%s"</value>
+                        <value lang="zh-CN">Tab at index %s and name "%s"</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="swing">
@@ -837,7 +849,7 @@
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Custom tooltips</value>
-                        <value lang="zh-CN">Кастомные подсказки</value>
+                        <value lang="zh-CN">Custom tooltips</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -845,7 +857,7 @@
         <Dictionary prefix="buttons">
             <record key="title">
                 <value lang="en">Buttons</value>
-                <value lang="zh-CN">Кнопки</value>
+                <value lang="zh-CN">Buttons</value>
             </record>
             <Dictionary prefix="jbutton">
                 <record key="title">
@@ -855,63 +867,63 @@
                 <Dictionary prefix="plain.text">
                     <record key="basic">
                         <value lang="en">Simple button</value>
-                        <value lang="zh-CN">Простая кнопка</value>
+                        <value lang="zh-CN">Simple button</value>
                     </record>
                     <record key="group1">
                         <value lang="en">Buttons</value>
-                        <value lang="zh-CN">Сгруппированные</value>
+                        <value lang="zh-CN">Buttons</value>
                     </record>
                     <record key="group2">
                         <value lang="en">Grouped</value>
-                        <value lang="zh-CN">Вместе</value>
+                        <value lang="zh-CN">Grouped</value>
                     </record>
                     <record key="group3">
                         <value lang="en">Together</value>
-                        <value lang="zh-CN">Кнопки</value>
+                        <value lang="zh-CN">Together</value>
                     </record>
                     <record key="icon">
                         <value lang="en">With icon</value>
-                        <value lang="zh-CN">С иконкой</value>
+                        <value lang="zh-CN">With icon</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled.text">
                     <record key="basic">
                         <value lang="en">{Button:b} with {styled:u} {text:c(255,80,80)}</value>
-                        <value lang="zh-CN">{Кнопка:b} со {стилизованным:u} {текстом:c(255,80,80)}</value>
+                        <value lang="zh-CN">{Button:b} with {styled:u} {text:c(255,80,80)}</value>
                     </record>
                     <record key="group1">
                         <value lang="en">{Buttons:b}</value>
-                        <value lang="zh-CN">{Сгруппированные:b}</value>
+                        <value lang="zh-CN">{Buttons:b}</value>
                     </record>
                     <record key="group2">
                         <value lang="en">{Grouped:u}</value>
-                        <value lang="zh-CN">{Вместе:u}</value>
+                        <value lang="zh-CN">{Grouped:u}</value>
                     </record>
                     <record key="group3">
                         <value lang="en">{Together:i}</value>
-                        <value lang="zh-CN">{Кнопки:i}</value>
+                        <value lang="zh-CN">{Together:i}</value>
                     </record>
                     <record key="icon">
                         <value lang="en">With icon {tm:sup}</value>
-                        <value lang="zh-CN">С иконкой {tm:sup}</value>
+                        <value lang="zh-CN">With icon {tm:sup}</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic buttons</value>
-                        <value lang="zh-CN">Базовые кнопки</value>
+                        <value lang="zh-CN">Basic buttons</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="icon">
                     <record key="title">
                         <value lang="en">Icon buttons</value>
-                        <value lang="zh-CN">Кнопки с иконками</value>
+                        <value lang="zh-CN">Icon buttons</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled">
                     <record key="title">
                         <value lang="en">With styled text</value>
-                        <value lang="zh-CN">Со стилизованным текстом</value>
+                        <value lang="zh-CN">With styled text</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -923,63 +935,63 @@
                 <Dictionary prefix="plain.text">
                     <record key="basic">
                         <value lang="en">Simple button</value>
-                        <value lang="zh-CN">Простая кнопка</value>
+                        <value lang="zh-CN">Simple button</value>
                     </record>
                     <record key="group1">
                         <value lang="en">Buttons</value>
-                        <value lang="zh-CN">Сгруппированные</value>
+                        <value lang="zh-CN">Buttons</value>
                     </record>
                     <record key="group2">
                         <value lang="en">Grouped</value>
-                        <value lang="zh-CN">Вместе</value>
+                        <value lang="zh-CN">Grouped</value>
                     </record>
                     <record key="group3">
                         <value lang="en">Together</value>
-                        <value lang="zh-CN">Кнопки</value>
+                        <value lang="zh-CN">Together</value>
                     </record>
                     <record key="icon">
                         <value lang="en">With icon</value>
-                        <value lang="zh-CN">С иконкой</value>
+                        <value lang="zh-CN">With icon</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled.text">
                     <record key="basic">
                         <value lang="en">{Button:b} with {styled:u} {text:c(255,80,80)}</value>
-                        <value lang="zh-CN">{Кнопка:b} со {стилизованным:u} {текстом:c(255,80,80)}</value>
+                        <value lang="zh-CN">{Button:b} with {styled:u} {text:c(255,80,80)}</value>
                     </record>
                     <record key="group1">
                         <value lang="en">{Buttons:b}</value>
-                        <value lang="zh-CN">{Сгруппированные:b}</value>
+                        <value lang="zh-CN">{Buttons:b}</value>
                     </record>
                     <record key="group2">
                         <value lang="en">{Grouped:u}</value>
-                        <value lang="zh-CN">{Вместе:u}</value>
+                        <value lang="zh-CN">{Buttons:u}</value>
                     </record>
                     <record key="group3">
                         <value lang="en">{Together:i}</value>
-                        <value lang="zh-CN">{Кнопки:i}</value>
+                        <value lang="zh-CN">{Buttons:i}</value>
                     </record>
                     <record key="icon">
                         <value lang="en">With icon {tm:sup}</value>
-                        <value lang="zh-CN">С иконкой {tm:sup}</value>
+                        <value lang="zh-CN">With icon {tm:sup}</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic buttons</value>
-                        <value lang="zh-CN">Базовые кнопки</value>
+                        <value lang="zh-CN">Basic buttons</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="icon">
                     <record key="title">
                         <value lang="en">Icon buttons</value>
-                        <value lang="zh-CN">Кнопки с иконками</value>
+                        <value lang="zh-CN">Icon buttons</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled">
                     <record key="title">
                         <value lang="en">With styled text</value>
-                        <value lang="zh-CN">Со стилизованным текстом</value>
+                        <value lang="zh-CN">With styled text</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -991,13 +1003,13 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic check box</value>
-                        <value lang="zh-CN">Простой чекбокс</value>
+                        <value lang="zh-CN">Basic check box</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled">
                     <record key="title">
                         <value lang="en">With styled text support</value>
-                        <value lang="zh-CN">Со стилизованным текстом</value>
+                        <value lang="zh-CN">With styled text support</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="link">
@@ -1015,19 +1027,19 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Tristate check box</value>
-                        <value lang="zh-CN">Чекбокс с тремя состояниями</value>
+                        <value lang="zh-CN">Tristate check box</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled">
                     <record key="title">
                         <value lang="en">With styled text support</value>
-                        <value lang="zh-CN">Со стилизованным текстом</value>
+                        <value lang="zh-CN">With styled text support</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="link">
                     <record key="title">
                         <value lang="en">Link-like</value>
-                        <value lang="zh-CN">В стиле ссылки</value>
+                        <value lang="zh-CN">Link-like</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1039,19 +1051,19 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic radio button</value>
-                        <value lang="zh-CN">Простой радиобаттон</value>
+                        <value lang="zh-CN">Basic radio button</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="styled">
                     <record key="title">
                         <value lang="en">With styled text support</value>
-                        <value lang="zh-CN">Со стилизованным текстом</value>
+                        <value lang="zh-CN">With styled text support</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="link">
                     <record key="title">
                         <value lang="en">Link-like</value>
-                        <value lang="zh-CN">В стиле ссылки</value>
+                        <value lang="zh-CN">Link-like</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1063,13 +1075,13 @@
                 <Dictionary prefix="text">
                     <record key="title">
                         <value lang="en">Text buttons</value>
-                        <value lang="zh-CN">Текстовые кнопки</value>
+                        <value lang="zh-CN">Text buttons</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="icon">
                     <record key="title">
                         <value lang="en">Icon buttons</value>
-                        <value lang="zh-CN">Кнопки с иконками</value>
+                        <value lang="zh-CN">Icon buttons</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1081,21 +1093,21 @@
                 <Dictionary prefix="text">
                     <record key="title">
                         <value lang="en">Text switch</value>
-                        <value lang="zh-CN">Текстовый переключатель</value>
+                        <value lang="zh-CN">Text switch</value>
                     </record>
                     <record key="on">
                         <value lang="en">ON</value>
-                        <value lang="zh-CN">ВКЛ</value>
+                        <value lang="zh-CN">开</value>
                     </record>
                     <record key="off">
                         <value lang="en">OFF</value>
-                        <value lang="zh-CN">ОТКЛ</value>
+                        <value lang="zh-CN">关</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="icon">
                     <record key="title">
                         <value lang="en">Icon switch</value>
-                        <value lang="zh-CN">Переключатель с иконками</value>
+                        <value lang="zh-CN">Icon switch</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1103,56 +1115,56 @@
         <Dictionary prefix="menus">
             <record key="title">
                 <value lang="en">Menu</value>
-                <value lang="zh-CN">Меню</value>
+                <value lang="zh-CN">菜单</value>
             </record>
             <Dictionary prefix="menu">
                 <record key="file">
                     <value lang="en" mnemonic="F">File</value>
-                    <value lang="zh-CN" mnemonic="Ф">Файл</value>
+                    <value lang="zh-CN" mnemonic="Ф">文件</value>
                 </record>
                 <record key="new">
                     <value lang="en">Create</value>
-                    <value lang="zh-CN">Создать</value>
+                    <value lang="zh-CN">新建</value>
                 </record>
                 <record key="image">
                     <value lang="en">Image</value>
-                    <value lang="zh-CN">Изображение</value>
+                    <value lang="zh-CN">Image</value>
                 </record>
                 <record key="video">
                     <value lang="en">Video file</value>
-                    <value lang="zh-CN">Видео файл</value>
+                    <value lang="zh-CN">Video file</value>
                 </record>
                 <record key="music">
                     <value lang="en">Audio file</value>
-                    <value lang="zh-CN">Аудио файл</value>
+                    <value lang="zh-CN">Audio file</value>
                 </record>
                 <record key="open">
                     <value lang="en">Open</value>
-                    <value lang="zh-CN">Открыть</value>
+                    <value lang="zh-CN">打开</value>
                 </record>
                 <record key="save">
                     <value lang="en">Save</value>
-                    <value lang="zh-CN">Сохранить</value>
+                    <value lang="zh-CN">保存</value>
                 </record>
                 <record key="print">
                     <value lang="en">Print</value>
-                    <value lang="zh-CN">Распечатать</value>
+                    <value lang="zh-CN">打印</value>
                 </record>
                 <record key="exit">
                     <value lang="en">Exit</value>
-                    <value lang="zh-CN">Выйти</value>
+                    <value lang="zh-CN">退出</value>
                 </record>
                 <record key="edit">
                     <value lang="en" mnemonic="E">Edit</value>
-                    <value lang="zh-CN" mnemonic="Р">Редактирование</value>
+                    <value lang="zh-CN" mnemonic="Р">编辑</value>
                 </record>
                 <record key="undo">
                     <value lang="en">Undo</value>
-                    <value lang="zh-CN">Отменить</value>
+                    <value lang="zh-CN">撤销</value>
                 </record>
                 <record key="redo">
                     <value lang="en">Redo</value>
-                    <value lang="zh-CN">Повторить</value>
+                    <value lang="zh-CN">重做</value>
                 </record>
                 <record key="cut">
                     <value lang="en">Cut</value>
@@ -1160,39 +1172,39 @@
                 </record>
                 <record key="copy">
                     <value lang="en">Copy</value>
-                    <value lang="zh-CN">Копировать</value>
+                    <value lang="zh-CN">剪切</value>
                 </record>
                 <record key="paste">
                     <value lang="en">Paste</value>
-                    <value lang="zh-CN">Вставить</value>
+                    <value lang="zh-CN">粘贴</value>
                 </record>
                 <record key="settings">
                     <value lang="en" mnemonic="S">Settings</value>
-                    <value lang="zh-CN" mnemonic="Н">Настройки</value>
+                    <value lang="zh-CN" mnemonic="Н">设置</value>
                 </record>
                 <record key="choice1">
                     <value lang="en">First choice</value>
-                    <value lang="zh-CN">Первый выбор</value>
+                    <value lang="zh-CN">First choice</value>
                 </record>
                 <record key="choice2">
                     <value lang="en">Second choice</value>
-                    <value lang="zh-CN">Второй выбор</value>
+                    <value lang="zh-CN">Second choice</value>
                 </record>
                 <record key="choice3">
                     <value lang="en">Third choice</value>
-                    <value lang="zh-CN">Третий выбор</value>
+                    <value lang="zh-CN">Third choice</value>
                 </record>
                 <record key="option1">
                     <value lang="en">First option</value>
-                    <value lang="zh-CN">Первая опция</value>
+                    <value lang="zh-CN">First option</value>
                 </record>
                 <record key="option2">
                     <value lang="en">Second option</value>
-                    <value lang="zh-CN">Вторая опция</value>
+                    <value lang="zh-CN">Second option</value>
                 </record>
                 <record key="option3">
                     <value lang="en">Third option</value>
-                    <value lang="zh-CN">Третья опция</value>
+                    <value lang="zh-CN">Third option</value>
                 </record>
             </Dictionary>
             <Dictionary prefix="jmenubar">
@@ -1202,26 +1214,26 @@
                 </record>
                 <record key="native">
                     <value lang="en">In native dialog</value>
-                    <value lang="zh-CN">В нативном диалоге</value>
+                    <value lang="zh-CN">In native dialog</value>
                 </record>
                 <record key="decorated">
                     <value lang="en">In decorated dialog</value>
-                    <value lang="zh-CN">В декорированном диалоге</value>
+                    <value lang="zh-CN">In decorated dialog</value>
                 </record>
                 <record key="content">
                     <value lang="en">Sample content</value>
-                    <value lang="zh-CN">Пример содержимого</value>
+                    <value lang="zh-CN">Sample content</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic menu bar</value>
-                        <value lang="zh-CN">Базовый меню бар</value>
+                        <value lang="zh-CN">Basic menu bar</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated">
                     <record key="title">
                         <value lang="en">Undecorated menu bar</value>
-                        <value lang="zh-CN">Недекорированный меню бар</value>
+                        <value lang="zh-CN">Undecorated menu bar</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1229,12 +1241,12 @@
         <Dictionary prefix="textcomponents">
             <record key="title">
                 <value lang="en">Text components</value>
-                <value lang="zh-CN">Текстовые компоненты</value>
+                <value lang="zh-CN">Text components</value>
             </record>
             <Dictionary prefix="textfields">
                 <record key="title">
                     <value lang="en">Text fields</value>
-                    <value lang="zh-CN">Текстовые поля</value>
+                    <value lang="zh-CN">Text fields</value>
                 </record>
                 <Dictionary prefix="jtextfield">
                     <record key="title">
@@ -1244,19 +1256,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="transparent">
                         <record key="title">
                             <value lang="en">Transparent</value>
-                            <value lang="zh-CN">Прозрачное</value>
+                            <value lang="zh-CN">Transparent</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="nofocus">
                         <record key="title">
                             <value lang="en">Without focus decoration</value>
-                            <value lang="zh-CN">Без оформления фокуса</value>
+                            <value lang="zh-CN">Without focus decoration</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1268,31 +1280,31 @@
                     <Dictionary prefix="inputprompt">
                         <record key="title">
                             <value lang="en">With input prompt</value>
-                            <value lang="zh-CN">С подсказкой ввода</value>
+                            <value lang="zh-CN">With input prompt</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter something...</value>
-                            <value lang="zh-CN">Введите что-либо...</value>
+                            <value lang="zh-CN">Enter something...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="leading">
                         <record key="title">
                             <value lang="en">With leading component</value>
-                            <value lang="zh-CN">С ведущим компонентом</value>
+                            <value lang="zh-CN">With leading component</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter key...</value>
-                            <value lang="zh-CN">Введите ключ...</value>
+                            <value lang="zh-CN">Enter key...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="trailing">
                         <record key="title">
                             <value lang="en">With trailing component</value>
-                            <value lang="zh-CN">С замыкающим компонентом</value>
+                            <value lang="zh-CN">With trailing component</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">GitHub repository...</value>
-                            <value lang="zh-CN">GitHub репозиторий...</value>
+                            <value lang="zh-CN">GitHub repository...</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1304,19 +1316,19 @@
                     <Dictionary prefix="currency">
                         <record key="title">
                             <value lang="en">Currency</value>
-                            <value lang="zh-CN">Валюта</value>
+                            <value lang="zh-CN">Currency</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="phone">
                         <record key="title">
                             <value lang="en">Phone</value>
-                            <value lang="zh-CN">Телефон</value>
+                            <value lang="zh-CN">Phone</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="fraction">
                         <record key="title">
                             <value lang="en">Fraction</value>
-                            <value lang="zh-CN">Доля</value>
+                            <value lang="zh-CN">Fraction</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1328,23 +1340,23 @@
                     <Dictionary prefix="currency">
                         <record key="title">
                             <value lang="en">Currency</value>
-                            <value lang="zh-CN">Валюта</value>
+                            <value lang="zh-CN">Currency</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter 4 digits...</value>
-                            <value lang="zh-CN">Введите 4 цифры...</value>
+                            <value lang="zh-CN">Enter 4 digits...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="phone">
                         <record key="title">
                             <value lang="en">Phone</value>
-                            <value lang="zh-CN">Телефон</value>
+                            <value lang="zh-CN">Phone</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="fraction">
                         <record key="title">
                             <value lang="en">Fraction</value>
-                            <value lang="zh-CN">Доля</value>
+                            <value lang="zh-CN">Fraction</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1356,19 +1368,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="transparent">
                         <record key="title">
                             <value lang="en">Transparent</value>
-                            <value lang="zh-CN">Прозрачное</value>
+                            <value lang="zh-CN">Transparent</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="nofocus">
                         <record key="title">
                             <value lang="en">Without focus decoration</value>
-                            <value lang="zh-CN">Без оформления фокуса</value>
+                            <value lang="zh-CN">Without focus decoration</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1380,31 +1392,31 @@
                     <Dictionary prefix="inputprompt">
                         <record key="title">
                             <value lang="en">With input prompt</value>
-                            <value lang="zh-CN">С подсказкой ввода</value>
+                            <value lang="zh-CN">With input prompt</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter password...</value>
-                            <value lang="zh-CN">Введите пароль...</value>
+                            <value lang="zh-CN">Enter password...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="leading">
                         <record key="title">
                             <value lang="en">With leading component</value>
-                            <value lang="zh-CN">С ведущим компонентом</value>
+                            <value lang="zh-CN">With leading component</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter key...</value>
-                            <value lang="zh-CN">Введите ключ...</value>
+                            <value lang="zh-CN">Enter key...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="trailing">
                         <record key="title">
                             <value lang="en">With trailing component</value>
-                            <value lang="zh-CN">С замыкающим компонентом</value>
+                            <value lang="zh-CN">With trailing component</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Repository pass...</value>
-                            <value lang="zh-CN">Пароль к репозиторию...</value>
+                            <value lang="zh-CN">Repository pass...</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1412,7 +1424,7 @@
             <Dictionary prefix="textareas">
                 <record key="title">
                     <value lang="en">Text areas</value>
-                    <value lang="zh-CN">Текстовые области</value>
+                    <value lang="zh-CN">Text areas</value>
                 </record>
                 <Dictionary prefix="jtextarea">
                     <record key="title">
@@ -1422,25 +1434,25 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="fixed">
                         <record key="title">
                             <value lang="en">Fixed size</value>
-                            <value lang="zh-CN">Фиксированный размер</value>
+                            <value lang="zh-CN">Fixed size</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="readonly">
                         <record key="title">
                             <value lang="en">Read only</value>
-                            <value lang="zh-CN">Только чтение</value>
+                            <value lang="zh-CN">Read only</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1452,17 +1464,17 @@
                     <Dictionary prefix="prompt">
                         <record key="title">
                             <value lang="en">With input prompt</value>
-                            <value lang="zh-CN">С подсказкой ввода</value>
+                            <value lang="zh-CN">With input prompt</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter text...</value>
-                            <value lang="zh-CN">Введите текст...</value>
+                            <value lang="zh-CN">Enter text...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="decorated">
                         <record key="title">
                             <value lang="en">Decorated</value>
-                            <value lang="zh-CN">Декорированная</value>
+                            <value lang="zh-CN">Decorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1474,13 +1486,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="readonly">
@@ -1498,17 +1510,17 @@
                     <Dictionary prefix="prompt">
                         <record key="title">
                             <value lang="en">With input prompt</value>
-                            <value lang="zh-CN">С подсказкой ввода</value>
+                            <value lang="zh-CN">With input prompt</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter text...</value>
-                            <value lang="zh-CN">Введите текст...</value>
+                            <value lang="zh-CN">Enter text...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="decorated">
                         <record key="title">
                             <value lang="en">Decorated</value>
-                            <value lang="zh-CN">Декорированная</value>
+                            <value lang="zh-CN">Decorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1520,19 +1532,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="readonly">
                         <record key="title">
                             <value lang="en">Read only</value>
-                            <value lang="zh-CN">Только чтение</value>
+                            <value lang="zh-CN">Read only</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1544,17 +1556,17 @@
                     <Dictionary prefix="prompt">
                         <record key="title">
                             <value lang="en">With input prompt</value>
-                            <value lang="zh-CN">С подсказкой ввода</value>
+                            <value lang="zh-CN">With input prompt</value>
                         </record>
                         <record key="prompt">
                             <value lang="en">Enter text...</value>
-                            <value lang="zh-CN">Введите текст...</value>
+                            <value lang="zh-CN">Enter text...</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="decorated">
                         <record key="title">
                             <value lang="en">Decorated</value>
-                            <value lang="zh-CN">Декорированная</value>
+                            <value lang="zh-CN">Decorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -1573,25 +1585,25 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic</value>
-                        <value lang="zh-CN">Базовая</value>
+                        <value lang="zh-CN">Basic</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent">
                     <record key="title">
                         <value lang="en">Transparent</value>
-                        <value lang="zh-CN">Прозрачная</value>
+                        <value lang="zh-CN">Transparent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated</value>
-                        <value lang="zh-CN">Декорированная</value>
+                        <value lang="zh-CN">Decorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="focusable">
                     <record key="title">
                         <value lang="en">Focusable</value>
-                        <value lang="zh-CN">Фокусабельная</value>
+                        <value lang="zh-CN">Focusable</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1603,25 +1615,25 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic</value>
-                        <value lang="zh-CN">Базовая</value>
+                        <value lang="zh-CN">Basic</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent">
                     <record key="title">
                         <value lang="en">Transparent</value>
-                        <value lang="zh-CN">Прозрачная</value>
+                        <value lang="zh-CN">Transparent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated</value>
-                        <value lang="zh-CN">Декорированная</value>
+                        <value lang="zh-CN">Decorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="focusable">
                     <record key="title">
                         <value lang="en">Focusable</value>
-                        <value lang="zh-CN">Фокусабельная</value>
+                        <value lang="zh-CN">Focusable</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1633,55 +1645,55 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic</value>
-                        <value lang="zh-CN">Базовая</value>
+                        <value lang="zh-CN">Basic</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="nofocus">
                     <record key="title">
                         <value lang="en">Non-focusable</value>
-                        <value lang="zh-CN">Без отображения фокуса</value>
+                        <value lang="zh-CN">Non-focusable</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated">
                     <record key="title">
                         <value lang="en">Undecorated</value>
-                        <value lang="zh-CN">Без декораций</value>
+                        <value lang="zh-CN">Undecorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent">
                     <record key="title">
                         <value lang="en">Transparent</value>
-                        <value lang="zh-CN">Прозрачная</value>
+                        <value lang="zh-CN">Transparent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="buttonless">
                     <record key="title">
                         <value lang="en">Buttonless</value>
-                        <value lang="zh-CN">Панель прокрутки</value>
+                        <value lang="zh-CN">Buttonless</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated.buttonless">
                     <record key="title">
                         <value lang="en">Undecorated buttonless</value>
-                        <value lang="zh-CN">Без декораций и кнопок</value>
+                        <value lang="zh-CN">Undecorated buttonless</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent.buttonless">
                     <record key="title">
                         <value lang="en">Transparent buttonless</value>
-                        <value lang="zh-CN">Прозрачная без кнопок</value>
+                        <value lang="zh-CN">Transparent buttonless</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="hovering">
                     <record key="title">
                         <value lang="en">Hovering</value>
-                        <value lang="zh-CN">Нависающая</value>
+                        <value lang="zh-CN">Hovering</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent.hovering">
                     <record key="title">
                         <value lang="en">Transparent hovering</value>
-                        <value lang="zh-CN">Прозрачная нависающая</value>
+                        <value lang="zh-CN">Transparent hovering</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1692,34 +1704,34 @@
                 </record>
                 <record key="left">
                     <value lang="en">Left side</value>
-                    <value lang="zh-CN">Левая сторона</value>
+                    <value lang="zh-CN">Left side</value>
                 </record>
                 <record key="right">
                     <value lang="en">Right side</value>
-                    <value lang="zh-CN">Правая сторона</value>
+                    <value lang="zh-CN">Right side</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic</value>
-                        <value lang="zh-CN">Базовый</value>
+                        <value lang="zh-CN">Basic</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent">
                     <record key="title">
                         <value lang="en">Transparent</value>
-                        <value lang="zh-CN">Прозрачный</value>
+                        <value lang="zh-CN">Transparent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated</value>
-                        <value lang="zh-CN">Декорированный</value>
+                        <value lang="zh-CN">Decorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="focusable">
                     <record key="title">
                         <value lang="en">Focusable</value>
-                        <value lang="zh-CN">Фокусабельный</value>
+                        <value lang="zh-CN">Focusable</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1730,30 +1742,30 @@
                 </record>
                 <record key="content">
                     <value lang="en">Content</value>
-                    <value lang="zh-CN">Содержимое</value>
+                    <value lang="zh-CN">Content</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic</value>
-                        <value lang="zh-CN">Базовый</value>
+                        <value lang="zh-CN">Basic</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="transparent">
                     <record key="title">
                         <value lang="en">Transparent</value>
-                        <value lang="zh-CN">Прозрачный</value>
+                        <value lang="zh-CN">Transparent</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated</value>
-                        <value lang="zh-CN">Декорированный</value>
+                        <value lang="zh-CN">Decorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="focusable">
                     <record key="title">
                         <value lang="en">Focusable</value>
-                        <value lang="zh-CN">Фокусабельный</value>
+                        <value lang="zh-CN">Focusable</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1764,42 +1776,42 @@
                 </record>
                 <record key="button1">
                     <value lang="en">Press</value>
-                    <value lang="zh-CN">Нажмите</value>
+                    <value lang="zh-CN">Press</value>
                 </record>
                 <record key="button2">
                     <value lang="en">Some</value>
-                    <value lang="zh-CN">Любую</value>
+                    <value lang="zh-CN">Some</value>
                 </record>
                 <record key="button3">
                     <value lang="en">Button</value>
-                    <value lang="zh-CN">Кнопку</value>
+                    <value lang="zh-CN">Button</value>
                 </record>
                 <record key="label1">
                     <value lang="en">Pick me:</value>
-                    <value lang="zh-CN">Выбери меня:</value>
+                    <value lang="zh-CN">Pick me:</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Simple toolbar</value>
-                        <value lang="zh-CN">Простой тулбар</value>
+                        <value lang="zh-CN">Simple toolbar</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated">
                     <record key="title">
                         <value lang="en">Undecorated toolbar</value>
-                        <value lang="zh-CN">Тулбар без декорации</value>
+                        <value lang="zh-CN">Undecorated toolbar</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="attached-north">
                     <record key="title">
                         <value lang="en">Attached to top</value>
-                        <value lang="zh-CN">Закреплённый сверху</value>
+                        <value lang="zh-CN">Attached to top</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="attached-south">
                     <record key="title">
                         <value lang="en">Attached to bottom</value>
-                        <value lang="zh-CN">Закреплённый снизу</value>
+                        <value lang="zh-CN">Attached to bottom</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1811,75 +1823,75 @@
                 <Dictionary prefix="data">
                     <record key="tab0">
                         <value lang="en">Simple tab</value>
-                        <value lang="zh-CN">Простой таб</value>
+                        <value lang="zh-CN">Simple tab</value>
                     </record>
                     <record key="tab1">
                         <value lang="en">Another tab</value>
-                        <value lang="zh-CN">Ещё один таб</value>
+                        <value lang="zh-CN">Another tab</value>
                     </record>
                     <record key="tab2">
                         <value lang="en">Tab</value>
-                        <value lang="zh-CN">Таб</value>
+                        <value lang="zh-CN">Tab</value>
                     </record>
                     <record key="tab3">
                         <value lang="en">Colored</value>
-                        <value lang="zh-CN">Цветной</value>
+                        <value lang="zh-CN">Colored</value>
                     </record>
                     <record key="tab4">
                         <value lang="en">Very-very long tab title</value>
-                        <value lang="zh-CN">Очень-очень длинный заголовок</value>
+                        <value lang="zh-CN">Very-very long tab title</value>
                     </record>
                     <record key="tab5">
                         <value lang="en">{Underlined:u} tab</value>
-                        <value lang="zh-CN">{Подчёркнутый:u} таб</value>
+                        <value lang="zh-CN">{Underlined:u} tab</value>
                     </record>
                     <record key="tab6">
                         <value lang="en">Disabled tab</value>
-                        <value lang="zh-CN">Заблокированный таб</value>
+                        <value lang="zh-CN">Disabled tab</value>
                     </record>
                     <record key="tab7">
                         <value lang="en">Last tab</value>
-                        <value lang="zh-CN">Последний таб</value>
+                        <value lang="zh-CN">Last tab</value>
                     </record>
                     <record key="content">
                         <value lang="en">Sample tab content{br}(click to focus this)</value>
-                        <value lang="zh-CN">Пример таб контента{br}(кликните для передачи фокуса)</value>
+                        <value lang="zh-CN">Sample tab content{br}(click to focus this)</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="top">
                     <record key="title">
                         <value lang="en">Tabs at the top</value>
-                        <value lang="zh-CN">Табы сверху</value>
+                        <value lang="zh-CN">Tabs at the top</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="left">
                     <record key="title">
                         <value lang="en">Tabs at the left</value>
-                        <value lang="zh-CN">Табы слева</value>
+                        <value lang="zh-CN">Tabs at the left</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="bottom">
                     <record key="title">
                         <value lang="en">Tabs at the bottom</value>
-                        <value lang="zh-CN">Табы снизу</value>
+                        <value lang="zh-CN">Tabs at the bottom</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="right">
                     <record key="title">
                         <value lang="en">Tabs at the right</value>
-                        <value lang="zh-CN">Табы справа</value>
+                        <value lang="zh-CN">Tabs at the right</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="equal">
                     <record key="title">
                         <value lang="en">Tabs of equal size</value>
-                        <value lang="zh-CN">Табы одинакового размера</value>
+                        <value lang="zh-CN">Tabs of equal size</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="vertical">
                     <record key="title">
                         <value lang="en">Vertical tabs</value>
-                        <value lang="zh-CN">Вертикальные табы</value>
+                        <value lang="zh-CN">Vertical tabs</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1891,63 +1903,63 @@
                 <Dictionary prefix="data">
                     <record key="tab0">
                         <value lang="en">Tab 0</value>
-                        <value lang="zh-CN">Таб 0</value>
+                        <value lang="zh-CN">Tab 0</value>
                     </record>
                     <record key="tab1">
                         <value lang="en">Tab 1</value>
-                        <value lang="zh-CN">Таб 1</value>
+                        <value lang="zh-CN">Tab 1</value>
                     </record>
                     <record key="tab2">
                         <value lang="en">Tab 2</value>
-                        <value lang="zh-CN">Таб 2</value>
+                        <value lang="zh-CN">Tab 2</value>
                     </record>
                     <record key="tab3">
                         <value lang="en">Tab 3</value>
-                        <value lang="zh-CN">Таб 3</value>
+                        <value lang="zh-CN">Tab 3</value>
                     </record>
                     <record key="tab4">
                         <value lang="en">Tab 4</value>
-                        <value lang="zh-CN">Таб 4</value>
+                        <value lang="zh-CN">Tab 4</value>
                     </record>
                     <record key="tab5">
                         <value lang="en">Tab 5</value>
-                        <value lang="zh-CN">Таб 5</value>
+                        <value lang="zh-CN">Tab 5</value>
                     </record>
                     <record key="tab6">
                         <value lang="en">Tab 6</value>
-                        <value lang="zh-CN">Таб 6</value>
+                        <value lang="zh-CN">Tab 6</value>
                     </record>
                     <record key="tab7">
                         <value lang="en">Tab 7</value>
-                        <value lang="zh-CN">Таб 7</value>
+                        <value lang="zh-CN">Tab 7</value>
                     </record>
                     <record key="content">
                         <value lang="en">Sample tab content{br}(click to focus this)</value>
-                        <value lang="zh-CN">Пример таб контента{br}(кликните для передачи фокуса)</value>
+                        <value lang="zh-CN">Sample tab content{br}(click to focus this)</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="top">
                     <record key="title">
                         <value lang="en">Tabs at the top</value>
-                        <value lang="zh-CN">Табы сверху</value>
+                        <value lang="zh-CN">Tabs at the top</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="left">
                     <record key="title">
                         <value lang="en">Tabs at the left</value>
-                        <value lang="zh-CN">Табы слева</value>
+                        <value lang="zh-CN">Tabs at the left</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="bottom">
                     <record key="title">
                         <value lang="en">Tabs at the bottom</value>
-                        <value lang="zh-CN">Табы снизу</value>
+                        <value lang="zh-CN">Tabs at the bottom</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="right">
                     <record key="title">
                         <value lang="en">Tabs at the right</value>
-                        <value lang="zh-CN">Табы справа</value>
+                        <value lang="zh-CN">Tabs at the right</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1959,19 +1971,19 @@
                 <Dictionary prefix="mixed">
                     <record key="title">
                         <value lang="en">Mixed grouping</value>
-                        <value lang="zh-CN">Группировка компонентов</value>
+                        <value lang="zh-CN">Mixed grouping</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="grid">
                     <record key="title">
                         <value lang="en">Grid grouping</value>
-                        <value lang="zh-CN">Группировка сеткой</value>
+                        <value lang="zh-CN">Grid grouping</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="buttons">
                     <record key="title">
                         <value lang="en">Buttons grouping</value>
-                        <value lang="zh-CN">Группировка кнопок</value>
+                        <value lang="zh-CN">Buttons grouping</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -1983,25 +1995,25 @@
                 <Dictionary prefix="data">
                     <record key="title">
                         <value lang="en">Collapsible pane</value>
-                        <value lang="zh-CN">Сворачиваемая панель</value>
+                        <value lang="zh-CN">Collapsible pane</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="top">
                     <record key="title">
                         <value lang="en">Title at top</value>
-                        <value lang="zh-CN">Заголовок сверху</value>
+                        <value lang="zh-CN">Title at top</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="left">
                     <record key="title">
                         <value lang="en">Title at left</value>
-                        <value lang="zh-CN">Заголовок слева</value>
+                        <value lang="zh-CN">Title at left</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="right">
                     <record key="title">
                         <value lang="en">Title at right</value>
-                        <value lang="zh-CN">Заголовок справа</value>
+                        <value lang="zh-CN">Title at right</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="bottom">
@@ -2019,31 +2031,31 @@
                 <Dictionary prefix="data">
                     <record key="title">
                         <value lang="en">Accordion pane</value>
-                        <value lang="zh-CN">Панель аккордиона</value>
+                        <value lang="zh-CN">Accordion pane</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="top">
                     <record key="title">
                         <value lang="en">Top header</value>
-                        <value lang="zh-CN">Заголовок сверху</value>
+                        <value lang="zh-CN">Top header</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="bottom">
                     <record key="title">
                         <value lang="en">Bottom header</value>
-                        <value lang="zh-CN">Заголовок снизу</value>
+                        <value lang="zh-CN">Bottom header</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="left">
                     <record key="title">
                         <value lang="en">Left header</value>
-                        <value lang="zh-CN">Заголовок слева</value>
+                        <value lang="zh-CN">Left header</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="right">
                     <record key="title">
                         <value lang="en">Right header</value>
-                        <value lang="zh-CN">Заголовок справа</value>
+                        <value lang="zh-CN">Right header</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2055,11 +2067,11 @@
                 <Dictionary prefix="frame">
                     <record key="button">
                         <value lang="en">Frame %s</value>
-                        <value lang="zh-CN">Фрейм %s</value>
+                        <value lang="zh-CN">Frame %s</value>
                     </record>
                     <record key="title">
                         <value lang="en">Simple frame %s</value>
-                        <value lang="zh-CN">Простой фрейм %s</value>
+                        <value lang="zh-CN">Simple frame %s</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2071,47 +2083,47 @@
                 <Dictionary prefix="data">
                     <record key="sample">
                         <value lang="en">Sample</value>
-                        <value lang="zh-CN">Простые</value>
+                        <value lang="zh-CN">Sample</value>
                     </record>
                     <record key="elements">
                         <value lang="en">Elements</value>
-                        <value lang="zh-CN">Элементы</value>
+                        <value lang="zh-CN">Elements</value>
                     </record>
                     <record key="menu1">
                         <value lang="en">Sample JMenuItem</value>
-                        <value lang="zh-CN">Простой JMenuItem</value>
+                        <value lang="zh-CN">Sample JMenuItem</value>
                     </record>
                     <record key="menu2">
                         <value lang="en">Within JPopupMenu</value>
-                        <value lang="zh-CN">Внутри JPopupMenu</value>
+                        <value lang="zh-CN">Within JPopupMenu</value>
                     </record>
                     <record key="menu3">
                         <value lang="en">Attached to WebSplitButton</value>
-                        <value lang="zh-CN">Добавленного в WebSplitButton</value>
+                        <value lang="zh-CN">Attached to WebSplitButton</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic style</value>
-                        <value lang="zh-CN">Базовая стилизация</value>
+                        <value lang="zh-CN">Basic style</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated">
                     <record key="title">
                         <value lang="en">Undecorated</value>
-                        <value lang="zh-CN">Не декорированный</value>
+                        <value lang="zh-CN">Undecorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="separated">
                     <record key="title">
                         <value lang="en">With separated elements</value>
-                        <value lang="zh-CN">С отдельными элементами</value>
+                        <value lang="zh-CN">With separated elements</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="separated-undecorated">
                     <record key="title">
                         <value lang="en">Undecorated{br}With separated elements</value>
-                        <value lang="zh-CN">Не декорированный{br}С отдельными элементами</value>
+                        <value lang="zh-CN">Undecorated{br}With separated elements</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2122,64 +2134,64 @@
                 </record>
                 <record key="info">
                     <value lang="en">Data: {%s:b}, UI: {%s:b}</value>
-                    <value lang="zh-CN">Данные: {%s:b}, UI: {%s:b}</value>
+                    <value lang="zh-CN">Data: {%s:b}, UI: {%s:b}</value>
                 </record>
                 <record key="initial">
                     <value lang="en">Starting content</value>
-                    <value lang="zh-CN">Начальное содержимое</value>
+                    <value lang="zh-CN">Starting content</value>
                 </record>
                 <record key="data">
                     <value lang="en">Loaded text</value>
-                    <value lang="zh-CN">Загруженный текст</value>
+                    <value lang="zh-CN">Loaded text</value>
                 </record>
                 <record key="status">
                     <value lang="en">Data status: {%s:b}{br}UI status: {%s:b}</value>
-                    <value lang="zh-CN">Статус данных: {%s:b}{br}Статус UI: {%s:b}</value>
+                    <value lang="zh-CN">Data status: {%s:b}{br}UI status: {%s:b}</value>
                 </record>
                 <record key="status.awaiting">
                     <value lang="en">Awaiting</value>
-                    <value lang="zh-CN">Ожидает</value>
+                    <value lang="zh-CN">Awaiting</value>
                 </record>
                 <record key="status.queued">
                     <value lang="en">Queued</value>
-                    <value lang="zh-CN">В очереди</value>
+                    <value lang="zh-CN">Queued</value>
                 </record>
                 <record key="status.loading">
                     <value lang="en">Loading</value>
-                    <value lang="zh-CN">Загружается</value>
+                    <value lang="zh-CN">Loading</value>
                 </record>
                 <record key="status.loaded">
                     <value lang="en">Loaded</value>
-                    <value lang="zh-CN">Загружен</value>
+                    <value lang="zh-CN">Loaded</value>
                 </record>
                 <record key="status.failed">
                     <value lang="en">Load failed</value>
-                    <value lang="zh-CN">Загрузка не удалась</value>
+                    <value lang="zh-CN">Load failed</value>
                 </record>
                 <record key="throw.data.error">
                     <value lang="en">Throw data loading error</value>
-                    <value lang="zh-CN">Бросить ошибку при загрузке данных</value>
+                    <value lang="zh-CN">Throw data loading error</value>
                 </record>
                 <record key="throw.ui.error">
                     <value lang="en">Throw UI loading error</value>
-                    <value lang="zh-CN">Бросить ошибку при загрузке интерфейса</value>
+                    <value lang="zh-CN">Throw UI loading error</value>
                 </record>
                 <Dictionary prefix="init">
                     <record key="title">
                         <value lang="en">Loading on initialize</value>
-                        <value lang="zh-CN">Загрузка при инициализации</value>
+                        <value lang="zh-CN">Loading on initialize</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="mixed">
                     <record key="title">
                         <value lang="en">Mixed loading mode</value>
-                        <value lang="zh-CN">Смешанный режим загрузки</value>
+                        <value lang="zh-CN">Mixed loading mode</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="display">
                     <record key="title">
                         <value lang="en">Loading on display</value>
-                        <value lang="zh-CN">Загрузка при показе</value>
+                        <value lang="zh-CN">Loading on display</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="manual">
@@ -2197,33 +2209,33 @@
                 <Dictionary prefix="textfield">
                     <record key="title">
                         <value lang="en">Over text field</value>
-                        <value lang="zh-CN">Над текстовым полем</value>
+                        <value lang="zh-CN">Over text field</value>
                     </record>
                     <record key="field">
                         <value lang="en" state="input-prompt">Enter something</value>
-                        <value lang="zh-CN" state="input-prompt">Введите что-либо</value>
+                        <value lang="zh-CN" state="input-prompt">Enter something</value>
                     </record>
                     <record key="tooltip">
                         <value lang="en">Sample tooltip text</value>
-                        <value lang="zh-CN">Пример тултип текста</value>
+                        <value lang="zh-CN">Enter something</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="blocking">
                     <record key="title">
                         <value lang="en">Blocking</value>
-                        <value lang="zh-CN">Блокирующий</value>
+                        <value lang="zh-CN">Blocking</value>
                     </record>
                     <record key="overlay.show">
                         <value lang="en">Show overlay</value>
-                        <value lang="zh-CN">Показать оверлей</value>
+                        <value lang="zh-CN">Show overlay</value>
                     </record>
                     <record key="overlay.hide">
                         <value lang="en">Hide overlay</value>
-                        <value lang="zh-CN">Спрятать оверлей</value>
+                        <value lang="zh-CN">Hide overlay</value>
                     </record>
                     <record key="overlay.text">
                         <value lang="en">{Simple overlay:b}{br}{blocking events:b}</value>
-                        <value lang="zh-CN">{Простой оверлей:b}{br}{блокирующий события:b}</value>
+                        <value lang="zh-CN">{Simple overlay:b}{br}{blocking events:b}</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2235,25 +2247,25 @@
                 <Dictionary prefix="temporary">
                     <record key="title">
                         <value lang="en">Temporary</value>
-                        <value lang="zh-CN">Временный</value>
+                        <value lang="zh-CN">Temporary</value>
                     </record>
                     <record key="button">
                         <value lang="en">Show progress for 5 seconds</value>
-                        <value lang="zh-CN">Показать прогресс на 5 секунд</value>
+                        <value lang="zh-CN">Show progress for 5 seconds</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="toggled">
                     <record key="title">
                         <value lang="en">Toggled</value>
-                        <value lang="zh-CN">Включаемый</value>
+                        <value lang="zh-CN">Toggled</value>
                     </record>
                     <record key="show">
                         <value lang="en">Show progress</value>
-                        <value lang="zh-CN">Показать прогресс</value>
+                        <value lang="zh-CN">Show progress</value>
                     </record>
                     <record key="hide">
                         <value lang="en">Hide progress</value>
-                        <value lang="zh-CN">Спрятать прогресс</value>
+                        <value lang="zh-CN">Hide progress</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2261,7 +2273,7 @@
         <Dictionary prefix="progress">
             <record key="title">
                 <value lang="en">Progress indicators</value>
-                <value lang="zh-CN">Индикаторы прогресса</value>
+                <value lang="zh-CN">Progress indicators</value>
             </record>
             <Dictionary prefix="jprogressbar">
                 <record key="title">
@@ -2271,19 +2283,19 @@
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic progress</value>
-                        <value lang="zh-CN">Базовый прогресс</value>
+                        <value lang="zh-CN">Basic progress</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="indeterminate">
                     <record key="title">
                         <value lang="en">Indeterminate progress</value>
-                        <value lang="zh-CN">Неопределённый прогресс</value>
+                        <value lang="zh-CN">Indeterminate progress</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="vertical">
                     <record key="title">
                         <value lang="en">Vertical progress bar</value>
-                        <value lang="zh-CN">Вертикальный прогресс бар</value>
+                        <value lang="zh-CN">Vertical progress bar</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2295,25 +2307,25 @@
                 <Dictionary prefix="horizontal">
                     <record key="title">
                         <value lang="en">Horizontal</value>
-                        <value lang="zh-CN">Горизонтальный</value>
+                        <value lang="zh-CN">Horizontal</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="vertical">
                     <record key="title">
                         <value lang="en">Vertical</value>
-                        <value lang="zh-CN">Вертикальный</value>
+                        <value lang="zh-CN">Vertical</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="horizontal.undecorated">
                     <record key="title">
                         <value lang="en">Horizontal undecorated</value>
-                        <value lang="zh-CN">Горизонтальный без декораций</value>
+                        <value lang="zh-CN">Horizontal undecorated</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="vertical.undecorated">
                     <record key="title">
                         <value lang="en">Vertical undecorated</value>
-                        <value lang="zh-CN">Вертикальный без декораций</value>
+                        <value lang="zh-CN">Vertical undecorated</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2321,12 +2333,12 @@
         <Dictionary prefix="data">
             <record key="title">
                 <value lang="en">Data view</value>
-                <value lang="zh-CN">Просмотр данных</value>
+                <value lang="zh-CN">Data view</value>
             </record>
             <Dictionary prefix="comboboxes">
                 <record key="title">
                     <value lang="en">Comboboxes</value>
-                    <value lang="zh-CN">Комбобоксы</value>
+                    <value lang="zh-CN">Comboboxes</value>
                 </record>
                 <Dictionary prefix="jcombobox">
                     <record key="title">
@@ -2336,19 +2348,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="hover">
                         <record key="title">
                             <value lang="en">Hover</value>
-                            <value lang="zh-CN">Видимый при наведении</value>
+                            <value lang="zh-CN">Hover</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="undecorated">
                         <record key="title">
                             <value lang="en">Undecorated</value>
-                            <value lang="zh-CN">Без декорации</value>
+                            <value lang="zh-CN">Undecorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2360,19 +2372,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="hover">
                         <record key="title">
                             <value lang="en">Hover</value>
-                            <value lang="zh-CN">Видимый при наведении</value>
+                            <value lang="zh-CN">Hover</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="undecorated">
                         <record key="title">
                             <value lang="en">Undecorated</value>
-                            <value lang="zh-CN">Без декорации</value>
+                            <value lang="zh-CN">Undecorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2384,19 +2396,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="hover">
                         <record key="title">
                             <value lang="en">Hover</value>
-                            <value lang="zh-CN">Видимый при наведении</value>
+                            <value lang="zh-CN">Hover</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="undecorated">
                         <record key="title">
                             <value lang="en">Undecorated</value>
-                            <value lang="zh-CN">Без декорации</value>
+                            <value lang="zh-CN">Undecorated</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2404,7 +2416,7 @@
             <Dictionary prefix="lists">
                 <record key="title">
                     <value lang="en">Lists</value>
-                    <value lang="zh-CN">Списки</value>
+                    <value lang="zh-CN">Lists</value>
                 </record>
                 <Dictionary prefix="jlist">
                     <record key="title">
@@ -2414,19 +2426,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемый</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемый</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2438,29 +2450,29 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемый</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемый</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="tooltips">
                         <record key="title">
                             <value lang="en">With tooltips</value>
-                            <value lang="zh-CN">С тултипами</value>
+                            <value lang="zh-CN">With tooltips</value>
                         </record>
                         <record key="cell">
                             <value lang="en">List cell at index %s and value "%s"</value>
-                            <value lang="zh-CN">Ячейка с индексом %s и значением "%s"</value>
+                            <value lang="zh-CN">List cell at index %s and value "%s"</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2472,25 +2484,25 @@
                     <Dictionary prefix="icons">
                         <record key="title">
                             <value lang="en">Icons</value>
-                            <value lang="zh-CN">Иконки</value>
+                            <value lang="zh-CN">Icons</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="tiles">
                         <record key="title">
                             <value lang="en">Tiles</value>
-                            <value lang="zh-CN">Плитка</value>
+                            <value lang="zh-CN">Tiles</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемый</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемый</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2502,19 +2514,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовый</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемый</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемый</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2522,7 +2534,7 @@
             <Dictionary prefix="grids">
                 <record key="title">
                     <value lang="en">Grids</value>
-                    <value lang="zh-CN">Таблицы</value>
+                    <value lang="zh-CN">Grids</value>
                 </record>
                 <Dictionary prefix="jtable">
                     <record key="title">
@@ -2532,19 +2544,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемая</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2556,33 +2568,33 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемая</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="tooltips">
                         <record key="title">
                             <value lang="en">With tooltips</value>
-                            <value lang="zh-CN">С тултипами</value>
+                            <value lang="zh-CN">With tooltips</value>
                         </record>
                         <record key="header">
                             <value lang="en">Header column at index %s with name "%s"</value>
-                            <value lang="zh-CN">Заголовок колонки с индексом %s и именем "%s"</value>
+                            <value lang="zh-CN">Header column at index %s with name "%s"</value>
                         </record>
                         <record key="cell">
                             <value lang="en">Table cell at (%s,%s) with value "%s"</value>
-                            <value lang="zh-CN">Ячейка таблицы (%s,%s) со значением "%s"</value>
+                            <value lang="zh-CN">Table cell at (%s,%s) with value "%s"</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2594,19 +2606,19 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="scrollable">
                         <record key="title">
                             <value lang="en">Scrollable</value>
-                            <value lang="zh-CN">Проматываемая</value>
+                            <value lang="zh-CN">Scrollable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемая</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2624,13 +2636,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемое</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2648,17 +2660,17 @@
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемое</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="tooltips">
                         <record key="title">
                             <value lang="en">With tooltips</value>
-                            <value lang="zh-CN">С тултипами</value>
+                            <value lang="zh-CN">With tooltips</value>
                         </record>
                         <record key="node">
                             <value lang="en">Tree node at row %s and value "%s"</value>
-                            <value lang="zh-CN">Нода на строке %s со значением "%s"</value>
+                            <value lang="zh-CN">Tree node at row %s and value "%s"</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="dragndrop">
@@ -2676,13 +2688,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемое</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="dragndrop">
@@ -2700,13 +2712,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемое</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="dragndrop">
@@ -2724,13 +2736,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="editable">
                         <record key="title">
                             <value lang="en">Editable</value>
-                            <value lang="zh-CN">Редактируемое</value>
+                            <value lang="zh-CN">Editable</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2742,13 +2754,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="custom">
                         <record key="title">
                             <value lang="en">Customized</value>
-                            <value lang="zh-CN">Кастомизированное</value>
+                            <value lang="zh-CN">Customized</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2760,13 +2772,13 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовое</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="custom">
                         <record key="title">
                             <value lang="en">Customized</value>
-                            <value lang="zh-CN">Кастомизированное</value>
+                            <value lang="zh-CN">Customized</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -2799,7 +2811,7 @@
         <Dictionary prefix="windows">
             <record key="title">
                 <value lang="en">Windows</value>
-                <value lang="zh-CN">Окна</value>
+                <value lang="zh-CN">Windows</value>
             </record>
             <Dictionary prefix="jframe">
                 <record key="title">
@@ -2808,22 +2820,22 @@
                 </record>
                 <record key="show">
                     <value lang="en">Show frame</value>
-                    <value lang="zh-CN">Показать фрейм</value>
+                    <value lang="zh-CN">Show frame</value>
                 </record>
                 <record key="content">
                     <value lang="en">Sample frame</value>
-                    <value lang="zh-CN">Образец фрейма</value>
+                    <value lang="zh-CN">Sample frame</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic frame</value>
-                        <value lang="zh-CN">Базовый фрейм</value>
+                        <value lang="zh-CN">Basic frame</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated frame</value>
-                        <value lang="zh-CN">Декорированный фрейм</value>
+                        <value lang="zh-CN">Decorated frame</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2834,22 +2846,22 @@
                 </record>
                 <record key="show">
                     <value lang="en">Show dialog</value>
-                    <value lang="zh-CN">Показать диалог</value>
+                    <value lang="zh-CN">Show dialog</value>
                 </record>
                 <record key="content">
                     <value lang="en">Sample dialog</value>
-                    <value lang="zh-CN">Образец диалога</value>
+                    <value lang="zh-CN">Sample dialog</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic dialog</value>
-                        <value lang="zh-CN">Базовый диалог</value>
+                        <value lang="zh-CN">Basic dialog</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="decorated">
                     <record key="title">
                         <value lang="en">Decorated dialog</value>
-                        <value lang="zh-CN">Декорированный диалог</value>
+                        <value lang="zh-CN">Decorated dialog</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2860,26 +2872,26 @@
                 </record>
                 <record key="show">
                     <value lang="en">Show popup</value>
-                    <value lang="zh-CN">Показать попап</value>
+                    <value lang="zh-CN">Show popup</value>
                 </record>
                 <record key="label">
                     <value lang="en">Sample popup with text field</value>
-                    <value lang="zh-CN">Образец попапа с текстовым полем</value>
+                    <value lang="zh-CN">Sample popup with text field</value>
                 </record>
                 <record key="text">
                     <value lang="en">Editable text</value>
-                    <value lang="zh-CN">Редактируемый текст</value>
+                    <value lang="zh-CN">Editable text</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic popup</value>
-                        <value lang="zh-CN">Базовый попап</value>
+                        <value lang="zh-CN">Basic popup</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="undecorated">
                     <record key="title">
                         <value lang="en">Undecorated popup</value>
-                        <value lang="zh-CN">Попап без декорации</value>
+                        <value lang="zh-CN">Undecorated popup</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2890,20 +2902,20 @@
                 </record>
                 <record key="show">
                     <value lang="en">Show popover</value>
-                    <value lang="zh-CN">Показать поповер</value>
+                    <value lang="zh-CN">Show popover</value>
                 </record>
                 <record key="label">
                     <value lang="en">Sample popover with text field</value>
-                    <value lang="zh-CN">Образец поповера с текстовым полем</value>
+                    <value lang="zh-CN">Sample popover with text field</value>
                 </record>
                 <record key="text">
                     <value lang="en">Editable text</value>
-                    <value lang="zh-CN">Редактируемый текст</value>
+                    <value lang="zh-CN">Editable text</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic popover</value>
-                        <value lang="zh-CN">Базовый поповер</value>
+                        <value lang="zh-CN">Basic popover</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -2915,72 +2927,72 @@
                 <Dictionary prefix="show">
                     <record key="system">
                         <value lang="en">Show native dialog</value>
-                        <value lang="zh-CN">Показать нативный диалог</value>
+                        <value lang="zh-CN">Show native dialog</value>
                     </record>
                     <record key="decorated">
                         <value lang="en">Show decorated dialog</value>
-                        <value lang="zh-CN">Показать декорированный диалог</value>
+                        <value lang="zh-CN">Show decorated dialog</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="message">
                     <record key="title">
                         <value lang="en">Information dialog</value>
-                        <value lang="zh-CN">Информационный диалог</value>
+                        <value lang="zh-CN">Information dialog</value>
                     </record>
                     <record key="message">
                         <value lang="en">You have opened information dialog</value>
-                        <value lang="zh-CN">Вы открыли информационный диалог</value>
+                        <value lang="zh-CN">You have opened information dialog</value>
                     </record>
                     <record key="notification">
                         <value lang="en">You have closed the dialog</value>
-                        <value lang="zh-CN">Вы закрыли диалог</value>
+                        <value lang="zh-CN">You have closed the dialog</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="input">
                     <record key="title">
                         <value lang="en">Value input dialog</value>
-                        <value lang="zh-CN">Диалог ввода значения</value>
+                        <value lang="zh-CN">Value input dialog</value>
                     </record>
                     <record key="message">
                         <value lang="en">Enter something in the field:</value>
-                        <value lang="zh-CN">Введите что-либо в поле:</value>
+                        <value lang="zh-CN">Enter something in the field:</value>
                     </record>
                     <record key="notification">
                         <value lang="en">You have entered: %s</value>
-                        <value lang="zh-CN">Вы ввели: %s</value>
+                        <value lang="zh-CN">You have entered: %s</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="choice">
                     <record key="title">
                         <value lang="en">Value choice dialog</value>
-                        <value lang="zh-CN">Диалог выбора значения</value>
+                        <value lang="zh-CN">Value choice dialog</value>
                     </record>
                     <record key="message">
                         <value lang="en">Choose exception to be displayed:</value>
-                        <value lang="zh-CN">Выберите ошибку для отображения:</value>
+                        <value lang="zh-CN">Choose exception to be displayed:</value>
                     </record>
                     <record key="notification">
                         <value lang="en">Exception text:\n%s</value>
-                        <value lang="zh-CN">Текст ошибки:\n%s</value>
+                        <value lang="zh-CN">Exception text:\n%s</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="confirm">
                     <record key="title">
                         <value lang="en">Option dialog</value>
-                        <value lang="zh-CN">Диалог с опциями</value>
+                        <value lang="zh-CN">Option dialog</value>
                     </record>
                     <record key="message">
                         <value lang="en">Choose any option you like below</value>
-                        <value lang="zh-CN">Выберите либую из опций снизу</value>
+                        <value lang="zh-CN">Choose any option you like below</value>
                     </record>
                     <record key="notification">
                         <value lang="en">You have chosen option: %s</value>
-                        <value lang="zh-CN">Вы выбрали опцию: %s</value>
+                        <value lang="zh-CN">You have chosen option: %s</value>
                     </record>
                 </Dictionary>
                 <record key="closed">
                     <value lang="en">You have closed the dialog</value>
-                    <value lang="zh-CN">Вы закрыли диалог</value>
+                    <value lang="zh-CN">You have closed the dialog</value>
                 </record>
             </Dictionary>
             <Dictionary prefix="webnotification">
@@ -2990,36 +3002,36 @@
                 </record>
                 <record key="show">
                     <value lang="en">Show notification</value>
-                    <value lang="zh-CN">Показать уведомление</value>
+                    <value lang="zh-CN">Show notification</value>
                 </record>
                 <Dictionary prefix="basic">
                     <record key="title">
                         <value lang="en">Basic notification</value>
-                        <value lang="zh-CN">Базовое уведомление</value>
+                        <value lang="zh-CN">Basic notification</value>
                     </record>
                     <record key="text">
                         <value lang="en">Sample notification</value>
-                        <value lang="zh-CN">Образец уведомления</value>
+                        <value lang="zh-CN">Sample notification</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="optional">
                     <record key="title">
                         <value lang="en">Notification with options</value>
-                        <value lang="zh-CN">Уведомление с опциями</value>
+                        <value lang="zh-CN">Notification with options</value>
                     </record>
                     <record key="text">
                         <value lang="en">Have you noticed the options below?</value>
-                        <value lang="zh-CN">Заметили ли вы опции внизу?</value>
+                        <value lang="zh-CN">Have you noticed the options below?</value>
                     </record>
                 </Dictionary>
                 <Dictionary prefix="custom">
                     <record key="title">
                         <value lang="en">Custom notification</value>
-                        <value lang="zh-CN">Кастомизированное уведомление</value>
+                        <value lang="zh-CN">Custom notification</value>
                     </record>
                     <record key="text">
                         <value lang="en">Have you seen a large WebLaF logo?</value>
-                        <value lang="zh-CN">Видели ли вы крупное лого WebLaF?</value>
+                        <value lang="zh-CN">Have you seen a large WebLaF logo?</value>
                     </record>
                 </Dictionary>
             </Dictionary>
@@ -3027,12 +3039,12 @@
         <Dictionary prefix="choosers">
             <record key="title">
                 <value lang="en">Choosers</value>
-                <value lang="zh-CN">Чузеры</value>
+                <value lang="zh-CN">Choosers</value>
             </record>
             <Dictionary prefix="dialogchoosers">
                 <record key="title">
                     <value lang="en">Dialog choosers</value>
-                    <value lang="zh-CN">Диалоговые чузеры</value>
+                    <value lang="zh-CN">Dialog choosers</value>
                 </record>
                 <Dictionary prefix="jcolorchooser">
                     <record key="title">
@@ -3042,7 +3054,7 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic dialog</value>
-                            <value lang="zh-CN">Базовый диалог</value>
+                            <value lang="zh-CN">Basic dialog</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3054,43 +3066,43 @@
                     <Dictionary prefix="open">
                         <record key="title">
                             <value lang="en">Open file dialog</value>
-                            <value lang="zh-CN">Диалог открытия файлов</value>
+                            <value lang="zh-CN">Open file dialog</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="save">
                         <record key="title">
                             <value lang="en">Save file dialog</value>
-                            <value lang="zh-CN">Диалог сохранения файлов</value>
+                            <value lang="zh-CN">Save file dialog</value>
                         </record>
                     </Dictionary>
                     <record key="show">
                         <value lang="en">Show dialog</value>
-                        <value lang="zh-CN">Показать диалог</value>
+                        <value lang="zh-CN">Show dialog</value>
                     </record>
                     <Dictionary prefix="result">
                         <record key="selected.single">
                             <value lang="en">Selected file:{br}%s</value>
-                            <value lang="zh-CN">Выбранный файл:{br}%s</value>
+                            <value lang="zh-CN">选择文件:{br}%s</value>
                         </record>
                         <record key="selected.multi">
                             <value lang="en">Selected files:{br}%s</value>
-                            <value lang="zh-CN">Выбранные файлы:{br}%s</value>
+                            <value lang="zh-CN">选择文件:{br}%s</value>
                         </record>
                         <record key="none.single">
                             <value lang="en">File wasn't selected</value>
-                            <value lang="zh-CN">Файл не был выбран</value>
+                            <value lang="zh-CN">未选择文件</value>
                         </record>
                         <record key="none.multi">
                             <value lang="en">Files were not selected</value>
-                            <value lang="zh-CN">Не был выбран ни один файл</value>
+                            <value lang="zh-CN">未选择文件</value>
                         </record>
                         <record key="cancelled">
                             <value lang="en">Save was cancelled</value>
-                            <value lang="zh-CN">Сохранение было отменено</value>
+                            <value lang="zh-CN">取消保存</value>
                         </record>
                         <record key="error">
                             <value lang="en">Something went wrong...</value>
-                            <value lang="zh-CN">Что-то пошло не так...</value>
+                            <value lang="zh-CN">发生异常...</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3102,35 +3114,35 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic chooser</value>
-                            <value lang="zh-CN">Базовый выборщик</value>
+                            <value lang="zh-CN">Basic chooser</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="custom">
                         <record key="title">
                             <value lang="en">Custom chooser</value>
-                            <value lang="zh-CN">Кастомизированный выборщик</value>
+                            <value lang="zh-CN">Custom chooser</value>
                         </record>
                     </Dictionary>
                     <record key="show">
                         <value lang="en">Show dialog</value>
-                        <value lang="zh-CN">Показать диалог</value>
+                        <value lang="zh-CN">Show dialog</value>
                     </record>
                     <Dictionary prefix="result">
                         <record key="selected">
                             <value lang="en">Selected directory:{br}%s</value>
-                            <value lang="zh-CN">Выбранная директория:{br}%s</value>
+                            <value lang="zh-CN">已选择目录:{br}%s</value>
                         </record>
                         <record key="cancelled">
                             <value lang="en">Selection was cancelled</value>
-                            <value lang="zh-CN">Выбор был отменён</value>
+                            <value lang="zh-CN">取消选择</value>
                         </record>
                         <record key="closed">
                             <value lang="en">Dialog was closed</value>
-                            <value lang="zh-CN">Диалог был закрыт</value>
+                            <value lang="zh-CN">关闭对话框</value>
                         </record>
                         <record key="none">
                             <value lang="en">Directory was not selected</value>
-                            <value lang="zh-CN">Директория не была выбрана</value>
+                            <value lang="zh-CN">未选择目录</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3138,7 +3150,7 @@
             <Dictionary prefix="fieldchoosers">
                 <record key="title">
                     <value lang="en">Field choosers</value>
-                    <value lang="zh-CN">Чузеры в виде полей</value>
+                    <value lang="zh-CN">Field choosers</value>
                 </record>
                 <Dictionary prefix="webdatefield">
                     <record key="title">
@@ -3148,11 +3160,11 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Date chooser field</value>
-                            <value lang="zh-CN">Поле выбора даты</value>
+                            <value lang="zh-CN">日期选择</value>
                         </record>
                         <record key="event">
                             <value lang="en">Date was set to %s</value>
-                            <value lang="zh-CN">Дата была изменена на %s</value>
+                            <value lang="zh-CN">设置日期 %s</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3164,7 +3176,7 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic field</value>
-                            <value lang="zh-CN">Базовое поле</value>
+                            <value lang="zh-CN">Basic field</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3176,7 +3188,7 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Path field</value>
-                            <value lang="zh-CN">Путь к файлу</value>
+                            <value lang="zh-CN">Path field</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3185,7 +3197,7 @@
         <Dictionary prefix="image">
             <record key="title">
                 <value lang="en">Images</value>
-                <value lang="zh-CN">Изображения</value>
+                <value lang="zh-CN">Images</value>
             </record>
             <Dictionary prefix="svg">
                 <record key="title">
@@ -3200,25 +3212,25 @@
                     <Dictionary prefix="basic">
                         <record key="title">
                             <value lang="en">Basic</value>
-                            <value lang="zh-CN">Базовая</value>
+                            <value lang="zh-CN">Basic</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="grayscale">
                         <record key="title">
                             <value lang="en">Grayscale</value>
-                            <value lang="zh-CN">Оттенки серого</value>
+                            <value lang="zh-CN">Grayscale</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="stroke">
                         <record key="title">
                             <value lang="en">Stroke color</value>
-                            <value lang="zh-CN">Цвет бордера</value>
+                            <value lang="zh-CN">Stroke color</value>
                         </record>
                     </Dictionary>
                     <Dictionary prefix="opacity">
                         <record key="title">
                             <value lang="en">Opacity</value>
-                            <value lang="zh-CN">Прозрачность</value>
+                            <value lang="zh-CN">透明</value>
                         </record>
                     </Dictionary>
                 </Dictionary>
@@ -3236,63 +3248,63 @@
                 </record>
                 <record key="duration">
                     <value lang="en">Duration:</value>
-                    <value lang="zh-CN">Длительность:</value>
+                    <value lang="zh-CN">Duration:</value>
                 </record>
             </Dictionary>
         </Dictionary>
         <Dictionary prefix="features">
             <record key="title">
                 <value lang="en">Other Features</value>
-                <value lang="zh-CN">Другие Возможности</value>
+                <value lang="zh-CN">Other Features</value>
             </record>
             <Dictionary prefix="shapedetection">
                 <record key="title">
                     <value lang="en">Component shape detection</value>
-                    <value lang="zh-CN">Определение форм компонентов</value>
+                    <value lang="zh-CN">Component shape detection</value>
                 </record>
                 <record key="examples">
                     <value lang="en">Shape detection examples</value>
-                    <value lang="zh-CN">Примеры определения формы</value>
+                    <value lang="zh-CN">Shape detection examples</value>
                 </record>
                 <record key="info1">
                     <value lang="en">Try hovering and clicking components below outside of their {visible:b} border,{br}ones with WebLaF shape detection enabled will only react to mouse events within border bounds.</value>
-                    <value lang="zh-CN">Попробуйте навести мышь и покликать снаружи {видимых:b} бордеров компонентов,{br}те что используют расширенное определение форм будут реагировать{br}только на события в рамках своего бордера.</value>
+                    <value lang="zh-CN">Try hovering and clicking components below outside of their {visible:b} border,{br}ones with WebLaF shape detection enabled will only react to mouse events within border bounds.</value>
                 </record>
                 <record key="basic">
                     <value lang="en">Basic {Swing:b}</value>
-                    <value lang="zh-CN">Базовое в {Swing:b}</value>
+                    <value lang="zh-CN">Basic {Swing:b}</value>
                 </record>
                 <record key="advanced">
                     <value lang="en">Advanced {WebLaF:b}</value>
-                    <value lang="zh-CN">Расширенное в {WebLaF:b}</value>
+                    <value lang="zh-CN">Advanced {WebLaF:b}</value>
                 </record>
                 <record key="button">
                     <value lang="en">Click me!</value>
-                    <value lang="zh-CN">Кликни меня!</value>
+                    <value lang="zh-CN">Click me!</value>
                 </record>
                 <record key="textarea">
                     <value lang="en" state="input-prompt">Simple text area</value>
-                    <value lang="zh-CN" state="input-prompt">Простая текстовая область</value>
+                    <value lang="zh-CN" state="input-prompt">Simple text area</value>
                 </record>
                 <record key="mouseevents">
                     <value lang="en">Mouse events preview</value>
-                    <value lang="zh-CN">Просмотр событий мыши</value>
+                    <value lang="zh-CN">Mouse events preview</value>
                 </record>
                 <record key="enabled">
                     <value lang="en">{Advanced shape detection enabled globally:b}</value>
-                    <value lang="zh-CN">{Включить глобальное определение форм:b}</value>
+                    <value lang="zh-CN">{Advanced shape detection enabled globally:b}</value>
                 </record>
                 <record key="info2">
                     <value lang="en">Try changing {global:b} shape detection setting above,{br}decorated panel below will display locations of received mouse events:</value>
-                    <value lang="zh-CN">Попробуйте изменить {глобальное:b} определение форм выше,{br}декорированная панель ниже покажет вам места событий мыши:</value>
+                    <value lang="zh-CN">Try changing {global:b} shape detection setting above,{br}decorated panel below will display locations of received mouse events:</value>
                 </record>
                 <record key="info3">
                     <value lang="en">These dots are generated on each {mouseMoved:b} event received by the area,{br}simple {MouseMotionListener:b} is used to receive these events.</value>
-                    <value lang="zh-CN">По одной точке создаётся на каждое {mouseMoved:b} событие полученное областью,{br}простой {MouseMotionListener:b} использован для получения этих событий.</value>
+                    <value lang="zh-CN">These dots are generated on each {mouseMoved:b} event received by the area,{br}simple {MouseMotionListener:b} is used to receive these events.</value>
                 </record>
                 <record key="info4">
                     <value lang="en">WebLaF's advanced shape detection filters out events occuring outside of the decoration.{br}By default it is globally enabled for all components that support WebLaF styling.{br}It can be forcefully enabled or disabled globally or separately for each component instance.</value>
-                    <value lang="zh-CN">WebLaF опреление форм фильтрует события происходящие вне декораций компонента.{br}По умолчанию определение форм включено глобально для всех компонентов, поддерживающих WebLaF стилизацию.{br}Оно может быть насильно включено или отключено глобально или отдельно для каждого инстанса компонента.</value>
+                    <value lang="zh-CN">WebLaF's advanced shape detection filters out events occuring outside of the decoration.{br}By default it is globally enabled for all components that support WebLaF styling.{br}It can be forcefully enabled or disabled globally or separately for each component instance.</value>
                 </record>
             </Dictionary>
         </Dictionary>
