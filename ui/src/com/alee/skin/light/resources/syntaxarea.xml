@@ -28,8 +28,8 @@
     </style>
 
     <!-- Transparent hovering syntax area scrollpane -->
-    <style type="scrollpane" id="syntaxarea-scroll-transparent-hovering" extends="">
-        transparent-hovering
+    <style type="scrollpane" id="syntaxarea-scroll-transparent-hovering" extends="transparent-hovering">
+
         <!-- Gutter -->
         <style type="panel" id="gutter">
             <component>
