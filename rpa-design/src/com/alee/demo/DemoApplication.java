@@ -29,6 +29,7 @@ import com.alee.demo.content.ExamplesManager;
 import com.alee.demo.frames.debug.DebugFrame;
 import com.alee.demo.frames.examples.ExamplesFrame;
 import com.alee.demo.frames.inspector.InspectorFrame;
+import com.alee.demo.frames.menu.RpaMenuBar;
 import com.alee.demo.frames.pallete.PaletteFrame;
 import com.alee.demo.frames.run.RunFrame;
 import com.alee.demo.frames.source.SourceFrame;
@@ -36,7 +37,6 @@ import com.alee.demo.frames.style.StyleFrame;
 import com.alee.demo.frames.toolbar.WebEditorToolBar;
 import com.alee.demo.skin.*;
 import com.alee.demo.skin.decoration.FeatureStateBackground;
-import com.alee.demo.ui.tools.*;
 import com.alee.extended.behavior.ComponentResizeBehavior;
 import com.alee.extended.canvas.WebCanvas;
 import com.alee.extended.dock.SidebarButtonVisibility;
@@ -57,7 +57,6 @@ import com.alee.laf.WebLookAndFeel;
 import com.alee.laf.panel.WebPanel;
 import com.alee.laf.rootpane.WindowState;
 import com.alee.laf.tabbedpane.WebTabbedPane;
-import com.alee.laf.toolbar.WebToolBar;
 import com.alee.laf.window.WebFrame;
 import com.alee.managers.language.LM;
 import com.alee.managers.language.LanguageLocaleUpdater;
@@ -77,7 +76,6 @@ import com.alee.utils.SystemUtils;
 import com.alee.utils.XmlUtils;
 import com.alee.utils.swing.Customizer;
 import com.mxgraph.examples.swing.GraphEditor;
-import com.mxgraph.examples.swing.editor.EditorToolBar;
 import com.mxgraph.swing.util.mxSwingConstants;
 import com.mxgraph.util.mxConstants;
 
@@ -167,6 +165,7 @@ public final class DemoApplication extends WebFrame {
 				return new WindowState(new Dimension(1200, 820));
 			}
 		}));
+		this.setJMenuBar(new RpaMenuBar(this));
 	}
 
 	/**
