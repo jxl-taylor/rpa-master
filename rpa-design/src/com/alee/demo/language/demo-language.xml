@@ -1128,7 +1128,7 @@
                 </record>
                 <record key="image">
                     <value lang="en">Image</value>
-                    <value lang="zh-CN">Image</value>
+                    <value lang="zh-CN">图片</value>
                 </record>
                 <record key="video">
                     <value lang="en">Video file</value>
@@ -1138,13 +1138,26 @@
                     <value lang="en">Audio file</value>
                     <value lang="zh-CN">Audio file</value>
                 </record>
+                <record key="new.project">
+                    <value lang="en">New Project</value>
+                    <value lang="zh-CN">新建工程</value>
+                </record>
+                <record key="new.module">
+                    <value lang="en">New Module</value>
+                    <value lang="zh-CN">新建组件</value>
+                </record>
+
                 <record key="open">
-                    <value lang="en">Open</value>
-                    <value lang="zh-CN">打开</value>
+                    <value lang="en">Open Project</value>
+                    <value lang="zh-CN">打开工程</value>
                 </record>
                 <record key="save">
                     <value lang="en">Save</value>
                     <value lang="zh-CN">保存</value>
+                </record>
+                <record key="save.as">
+                    <value lang="en">Save As</value>
+                    <value lang="zh-CN">另存为</value>
                 </record>
                 <record key="print">
                     <value lang="en">Print</value>
@@ -1154,6 +1167,7 @@
                     <value lang="en">Exit</value>
                     <value lang="zh-CN">退出</value>
                 </record>
+                    <!--编辑-->
                 <record key="edit">
                     <value lang="en" mnemonic="E">Edit</value>
                     <value lang="zh-CN" mnemonic="Р">编辑</value>
@@ -1178,6 +1192,67 @@
                     <value lang="en">Paste</value>
                     <value lang="zh-CN">粘贴</value>
                 </record>
+
+                <!--运行-->
+                <record key="run">
+                    <value lang="en">Run</value>
+                    <value lang="zh-CN">运行</value>
+                </record>
+                <record key="run.project">
+                    <value lang="en">Run Project</value>
+                    <value lang="zh-CN">运行工程</value>
+                </record>
+                <record key="debug.project">
+                    <value lang="en">Debug Project</value>
+                    <value lang="zh-CN">调试工程</value>
+                </record>
+                <record key="run.current">
+                    <value lang="en">Run Current</value>
+                    <value lang="zh-CN">运行当前组件</value>
+                </record>
+                <record key="debug.current">
+                    <value lang="en">Debug Current</value>
+                    <value lang="zh-CN">调试当前组件</value>
+                </record>
+                <record key="run.from.current">
+                    <value lang="en">Run From Current</value>
+                    <value lang="zh-CN">从当前组件运行</value>
+                </record>
+                <record key="debug.from.current">
+                    <value lang="en">Debug From Current</value>
+                    <value lang="zh-CN">从当前组件调试</value>
+                </record>
+                <record key="stop">
+                    <value lang="en">Stop</value>
+                    <value lang="zh-CN">停止运行</value>
+                </record>
+
+                <!--工具-->
+                <record key="tool">
+                    <value lang="en">Tools</value>
+                    <value lang="zh-CN">工具</value>
+                </record>
+
+
+
+
+                <!--窗口-->
+                <record key="window">
+                    <value lang="en">Window</value>
+                    <value lang="zh-CN">窗口</value>
+                </record>
+
+
+
+
+
+                <!--帮助-->
+                <record key="help">
+                    <value lang="en">Help</value>
+                    <value lang="zh-CN">帮助</value>
+                </record>
+
+
                 <record key="settings">
                     <value lang="en" mnemonic="S">Settings</value>
                     <value lang="zh-CN" mnemonic="Н">设置</value>
