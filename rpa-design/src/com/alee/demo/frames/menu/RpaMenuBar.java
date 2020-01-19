@@ -68,17 +68,32 @@ public class RpaMenuBar extends JMenuBar {
 
 		//工具
 		final MenuGenerator toolMenu = generator.addSubMenu("image", "tool");
-
+		toolMenu.addItem("image", "robot.upload", Hotkey.CTRL_A, action);
+		toolMenu.addItem("image", "robot.download", Hotkey.CTRL_A, action);
+		toolMenu.addItem("image", "module.upload", Hotkey.CTRL_A, action);
+		toolMenu.addItem("image", "module.download", Hotkey.CTRL_A, action);
+		toolMenu.addSeparator();
+		toolMenu.addItem("image", "export.process", Hotkey.CTRL_A, action);
+		toolMenu.addItem("image", "robot.release", Hotkey.CTRL_A, action);
 		add(toolMenu.getMenu());
 
 		//窗口
 		final MenuGenerator windowMenu = generator.addSubMenu("image", "window");
-
+		windowMenu.addItem("image", "my.project", Hotkey.CTRL_A, action);
+		windowMenu.addSeparator();
+		windowMenu.addItem("image", "zone.toolbar", Hotkey.CTRL_A, action);
+		windowMenu.addItem("image", "zone.log", Hotkey.CTRL_B, action);
+		windowMenu.addItem("image", "zone.property", Hotkey.CTRL_B, action);
+		windowMenu.addSeparator();
+		windowMenu.addItem("image", "restore", Hotkey.CTRL_B, action);
 		add(windowMenu.getMenu());
 
 		//帮助
 		final MenuGenerator helpMenu = generator.addSubMenu("image", "help");
-
+		helpMenu.addItem("image", "doc", Hotkey.CTRL_A, action);
+		helpMenu.addItem("image", "version", Hotkey.CTRL_A, action);
+		helpMenu.addItem("image", "login", Hotkey.CTRL_A, action);
+		helpMenu.addItem("image", "about", Hotkey.CTRL_A, action);
 		add(helpMenu.getMenu());
 
 	}

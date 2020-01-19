@@ -1182,11 +1182,11 @@
                 </record>
                 <record key="cut">
                     <value lang="en">Cut</value>
-                    <value lang="zh-CN">Вырезать</value>
+                    <value lang="zh-CN">剪切</value>
                 </record>
                 <record key="copy">
                     <value lang="en">Copy</value>
-                    <value lang="zh-CN">剪切</value>
+                    <value lang="zh-CN">复制</value>
                 </record>
                 <record key="paste">
                     <value lang="en">Paste</value>
@@ -1232,8 +1232,30 @@
                     <value lang="en">Tools</value>
                     <value lang="zh-CN">工具</value>
                 </record>
-
-
+                <record key="robot.upload">
+                    <value lang="en">Robot Upload</value>
+                    <value lang="zh-CN">机器人上传</value>
+                </record>
+                <record key="robot.download">
+                    <value lang="en">Robot Download</value>
+                    <value lang="zh-CN">机器人下载</value>
+                </record>
+                <record key="module.upload">
+                    <value lang="en">Module Upload</value>
+                    <value lang="zh-CN">组件上传</value>
+                </record>
+                <record key="module.download">
+                    <value lang="en">Module Download</value>
+                    <value lang="zh-CN">组件下载</value>
+                </record>
+                <record key="export.process">
+                    <value lang="en">Export Process</value>
+                    <value lang="zh-CN">导出流程文件</value>
+                </record>
+                <record key="robot.release">
+                    <value lang="en">Robot Release</value>
+                    <value lang="zh-CN">机器人发布</value>
+                </record>
 
 
                 <!--窗口-->
@@ -1241,8 +1263,26 @@
                     <value lang="en">Window</value>
                     <value lang="zh-CN">窗口</value>
                 </record>
-
-
+                <record key="my.project">
+                    <value lang="en">My Project</value>
+                    <value lang="zh-CN">我的项目</value>
+                </record>
+                <record key="zone.toolbar">
+                    <value lang="en">Tool Bar</value>
+                    <value lang="zh-CN">工具栏</value>
+                </record>
+                <record key="zone.log">
+                    <value lang="en">Log Bar</value>
+                    <value lang="zh-CN">日志栏</value>
+                </record>
+                <record key="zone.property">
+                    <value lang="en">Property Bar</value>
+                    <value lang="zh-CN">属性栏</value>
+                </record>
+                <record key="restore">
+                    <value lang="en">Restore Default Layout</value>
+                    <value lang="zh-CN">恢复默认布局</value>
+                </record>
 
 
 
@@ -1251,7 +1291,22 @@
                     <value lang="en">Help</value>
                     <value lang="zh-CN">帮助</value>
                 </record>
-
+                <record key="doc">
+                    <value lang="en">Document</value>
+                    <value lang="zh-CN">帮助文档</value>
+                </record>
+                <record key="version">
+                    <value lang="en">Version</value>
+                    <value lang="zh-CN">版本</value>
+                </record>
+                <record key="login">
+                    <value lang="en">：Login</value>
+                    <value lang="zh-CN">登录</value>
+                </record>
+                <record key="about">
+                    <value lang="en">About</value>
+                    <value lang="zh-CN">关于</value>
+                </record>
 
                 <record key="settings">
                     <value lang="en" mnemonic="S">Settings</value>
